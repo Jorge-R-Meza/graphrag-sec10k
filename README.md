@@ -25,9 +25,11 @@ Indexing pipeline:
 - **Document-scoped communities.** Community detection runs per document group (for example
   per filer) rather than over the merged graph, and community reports can be stamped with
   their source document. Configured under `document_scoped_communities`.
-- **Entity alias resolution.** A post-extraction workflow merges entities that are known
-  aliases of one another, driven by a JSON mapping file. Configured under
-  `resolve_entity_aliases`.
+- **Entity alias resolution.** An optional post-extraction workflow merges entities that
+  are known aliases of one another, driven by a YAML mapping file. Configured under
+  `resolve_entity_aliases`; off in the sample project. Separately, `filer_alias_file` under
+  `extract_graph` maps each document title to its filer, so self-references such as "the
+  Company" resolve to the actual filer during extraction.
 - **Custom prompts** for entity-only extraction, gleaning, relationship extraction,
   description summarisation and community reports live in `ragtest/prompts/`.
 
@@ -84,7 +86,7 @@ See [ragtest/README.md](ragtest/README.md) for the sample project layout and too
 ## Development
 
 ```bash
-uv run poe check        # ruff, pyright, deptry
+uv run poe check        # ruff format check, ruff lint, pyright
 uv run pytest tests/unit
 ```
 

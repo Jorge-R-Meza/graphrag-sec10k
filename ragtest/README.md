@@ -10,7 +10,7 @@ A ready-to-run GraphRAG project over six SEC 10-K filings.
 | `.env.example` | Template for `.env`, which holds `OPENROUTER_API_KEY` and is gitignored |
 | `input/` | Plain-text 10-K filings named `<TICKER>_10k_<FY>.txt`; the name drives document grouping and scope labels |
 | `prompts/` | Custom prompts for extraction, gleaning, summarisation, community reports and search |
-| `filer_aliases.json` | Known entity aliases merged during indexing |
+| `filer_aliases.json` | Maps each input file name to its filer entity, so self-references such as "the Company" are renamed to the filer during extraction |
 | `questions.txt` | Default question suite for the evaluation harness, one question per line |
 | `q_autorun.py` | Evaluation harness: runs each question through local and global search |
 | `run_graphrag.py` | CLI wrapper that loads `.env`, injects the OS trust store, and registers the fastembed provider |
