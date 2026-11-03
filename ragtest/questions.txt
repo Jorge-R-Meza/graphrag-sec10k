@@ -1,0 +1,6 @@
+# GraphRAG A/B questions. One per line. Lines starting with `#` are ignored.
+Which end markets drive revenue for the companies in this corpus, and how concentrated are their customer bases?
+How do the companies describe their exposure to export controls and trade restrictions with China?
+What manufacturing and foundry dependencies do the companies disclose, and which are shared across filings?
+How do the companies account for and manage inventory and supply chain risk?
+Which companies report significant customer concentration with Apple, and how large is that exposure?

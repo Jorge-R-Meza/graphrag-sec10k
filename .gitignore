@@ -1,0 +1,75 @@
+# Python Artifacts
+python/*/lib/
+dist/
+build/
+*.egg-info/
+
+# Test Output
+.coverage
+coverage/
+licenses.txt
+examples_notebooks/*/data
+tests/fixtures/cache
+tests/fixtures/*/cache
+tests/fixtures/*/output
+output/lancedb
+
+
+# Random
+.DS_Store
+
+.venv
+venv/
+.conda
+.tmp
+packages/graphrag-llm/notebooks/metrics
+packages/graphrag-llm/notebooks/cache
+
+.env
+build.zip
+
+.turbo
+
+__pycache__
+
+.pipeline
+
+# Azurite
+temp_azurite/
+__azurite*.json
+__blobstorage*.json
+__blobstorage__/
+
+# Getting started example
+ragtest/cache
+ragtest/output
+
+
+# mkdocs
+site/
+
+# Docs migration
+docsite/
+.yarn/
+.pnp*
+
+# PyCharm
+.idea/
+
+# Jupyter notebook
+.ipynb_checkpoints/
+.graphrag.zip
+/graphrag.zip
+# Root build assets
+packages/*/LICENSE
+
+# Notebooks outputs
+packages/graphrag-*/example_notebooks/**/output
+packages/graphrag-*/example_notebooks/**/cache
+# Word owner/lock files
+~$*
+ragtest/logs
+ragtest/responses
+ragtest/responses_*.md
+ragtest/graph.html
+ragtest/q_autorun_output.*

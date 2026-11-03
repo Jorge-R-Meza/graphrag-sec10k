@@ -1,0 +1,71 @@
+-Goal-
+You are given a list of KNOWN ENTITIES already identified across a document, and ONE passage from that document. Identify every relationship that THIS passage supports, and CLASSIFY each with exactly one predicate label.
+
+-Document identity-
+If the known-entities section begins with a DOCUMENT IDENTITY line stating whose filing this passage comes from, then every self-reference in the passage — "we", "our", "us", "the Company", "the Registrant" — refers to THAT filer and no one else. Use the filer's exact name as the endpoint for self-referential statements. NEVER attribute a self-referential statement to a different company, even one on the known-entity list.
+
+-Use the known-entity list for salience-
+Some known entities appear in this passage in NON-OBVIOUS ways — a role phrase, an abbreviation, or a description that does not read as a named entity on its own. Recognize them and connect them, reusing their EXACT names. For example, "our largest customer" refers to APPLE if a known entity establishes Apple as the largest customer; "our primary foundry partner" may describe TSMC even if TSMC is not named in this passage — if a matching known entity exists, link it. Named third parties resolve to their list entries as usual — the DOCUMENT IDENTITY rule governs only self-references.
+
+-Predicate labels (choose EXACTLY ONE per relationship)-
+CUSTOMER_OF: one party is a SPECIFIC NAMED customer of the other, or a named customer's concentration share (e.g. "Apple accounted for 59% of net revenue"). The counterparty is a NAMED company, not a category.
+SUPPLIER_OF: one party supplies, fabricates, or manufactures for the other (foundry, sole-source input, contract manufacturer).
+COMPETITOR_OF: the parties are named as competitors, or compete for the same named market.
+PARTNER_OF: a partnership, joint venture, collaboration, or strategic agreement.
+REVENUE_SPLIT: a revenue/sales figure broken down by GEOGRAPHY, SEGMENT, PRODUCT LINE, or CHANNEL (distributors, direct sales, a region, a product group) — NOT a single named customer. Use this for "distributors accounted for 56%", "the automotive segment was 30%", "sales in China were 13%", "the top five customers were 40%". This is DISTINCT from CUSTOMER_OF: if no single company is named, it is a REVENUE_SPLIT.
+OPERATES_IN: a company's operations, manufacturing, facilities, or headquarters in a named place.
+PRODUCES: a company designs, makes, offers, or markets a named product, technology, or service.
+SUBJECT_TO: a regulation, tariff, law, export control, or government program constrains or applies to a company.
+PARTY_TO: a company is a named participant in an EVENT: a lawsuit, merger, acquisition, investigation, or settlement.
+DEPENDS_ON: a stated reliance or risk exposure (a sole input, a concentrated end market, a single geography).
+IMPACTS: one thing raises, lowers, drives, or otherwise affects a financial metric or outcome.
+RELATED_TO: a real connection this passage supports that fits none of the labels above.
+
+-Steps-
+1. Identify relationships EXHAUSTIVELY. For every pair of entities this passage connects in ANY way, extract a relationship — do not restrict yourself to the few strongest links; a passage that mentions N entities usually supports many more than N relationships. For each, extract:
+  - source_entity, target_entity: prefer a known entity's EXACT name; if a clearly-named entity in this passage is NOT in the list, you may still use it as an endpoint (name it exactly as the passage does, and also declare it as an entity record per step 2).
+  - relationship_description: BEGIN with exactly one predicate label from the list above, in square brackets, then explain why they are related, grounded in this passage. State the role explicitly and preserve exact figures, percentages, dollar amounts, and fiscal years VERBATIM. Example: "[CUSTOMER_OF] Apple accounted for approximately 59% of net revenue in fiscal 2025".
+  - relationship_strength: integer 1-10 (1-3 tangential/co-occurring; 4-6 stated but indirect; 7-10 direct/explicit). Report a weak link rather than omitting it.
+  Format each as ("relationship"<|>SOURCE<|>TARGET<|>[PREDICATE] description<|>STRENGTH)
+2. For every relationship endpoint that is NOT on the known-entity list, ALSO output one entity record so it can be added to the graph:
+  Format each as ("entity"<|>NAME<|>TYPE<|>one-sentence description grounded in this passage<|>)
+  Do NOT re-declare entities that are already on the known-entity list.
+3. PREDICATE DISCIPLINE: choose the single most specific label. Reserve CUSTOMER_OF for a NAMED customer; use REVENUE_SPLIT when the figure is a geography/segment/product/channel breakdown with no single company named. Every relationship_description MUST start with one bracketed label — never omit it, never invent a label outside the list.
+4. DENSITY CHECK: the entities in a passage form a connected web, not a flat list. Your relationships should OUTNUMBER the known entities that appear in this passage. If you have fewer, you have under-connected — re-read for the structural, conditional, co-occurrence, and component links you skipped, and add them at strength 3-6.
+5. Use ## as the delimiter between records.
+6. When finished, output <|COMPLETE|>.
+######################
+-Example-
+Known entities:
+- SKYWORKS SOLUTIONS
+- APPLE
+- QORVO
+- NET REVENUE
+- OSAKA, JAPAN
+
+text:
+Our largest customer accounted for approximately 59% of net revenue in fiscal 2025, and the loss of this customer would materially reduce our revenue. Sales to distributors represented 22% of net revenue. We compete for front-end module content in premium smartphones primarily with Qorvo and Broadcom. A significant portion of our products are fabricated at our facilities in Osaka, Japan.
+------------------------
+output:
+("relationship"<|>APPLE<|>SKYWORKS SOLUTIONS<|>[CUSTOMER_OF] Apple is Skyworks Solutions' largest customer, accounting for approximately 59% of net revenue in fiscal 2025; the loss of this customer would materially reduce Skyworks revenue<|>10)
+##
+("relationship"<|>DISTRIBUTORS<|>SKYWORKS SOLUTIONS<|>[REVENUE_SPLIT] Sales through distributors represented 22% of Skyworks Solutions net revenue<|>6)
+##
+("relationship"<|>QORVO<|>SKYWORKS SOLUTIONS<|>[COMPETITOR_OF] Qorvo competes with Skyworks Solutions for front-end module content in premium smartphones<|>8)
+##
+("relationship"<|>BROADCOM<|>SKYWORKS SOLUTIONS<|>[COMPETITOR_OF] Broadcom competes with Skyworks Solutions for front-end module content in premium smartphones<|>8)
+##
+("relationship"<|>SKYWORKS SOLUTIONS<|>OSAKA, JAPAN<|>[OPERATES_IN] A significant portion of Skyworks Solutions products are fabricated at its facilities in Osaka, Japan<|>7)
+##
+("entity"<|>DISTRIBUTORS<|>ORGANIZATION<|>The distribution channel through which Skyworks Solutions sold products representing 22% of net revenue<|>)
+##
+("entity"<|>BROADCOM<|>ORGANIZATION<|>A competitor of Skyworks Solutions for front-end module content in premium smartphones<|>)
+<|COMPLETE|>
+######################
+-Known entities (recognize and reuse these where they appear; you may also name new endpoints)-
+{entity_list}
+######################
+-Text-
+text: {input_text}
+######################
+output:

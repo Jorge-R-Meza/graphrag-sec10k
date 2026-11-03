@@ -1,0 +1,4 @@
+{
+  "type": "minor",
+  "description": "Add relationship_entity_budget to two-phase graph extraction: feed each chunk only the top-N relevant known entities (lexical + in-memory embedding cosine) instead of the full document-wide list, keeping the relationship prompt within the context window on long documents. Defaults to None (full list, unchanged)."
+}

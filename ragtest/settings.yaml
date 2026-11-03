@@ -1,0 +1,161 @@
+### ragtest GraphRAG config — OpenRouter via LiteLLM (the stock graphrag-llm path)
+### Any OpenRouter model id works; LiteLLM sends it as "openrouter/<model>".
+### Set OPENROUTER_API_KEY in ragtest/.env (see .env.example).
+
+completion_models:
+  default:
+    type: litellm
+    model_provider: openrouter
+    model: anthropic/claude-sonnet-4.5
+    auth_method: api_key
+    api_key: ${OPENROUTER_API_KEY}
+    # api_base defaults to https://openrouter.ai/api/v1 inside LiteLLM
+    call_args:
+      temperature: 0
+      max_tokens: 8000
+    retry:
+      type: exponential_backoff
+      max_retries: 5
+    rate_limit:
+      requests_per_period: 50     # tune to your OpenRouter account / model limits
+      period_in_seconds: 60
+
+concurrent_requests: 8        # keep in step with rate_limit above
+
+embedding_models:
+  default_embedding_model:
+    type: sentence-transformers
+    model_provider: huggingface
+    model: BAAI/bge-m3                # 1024-dim, multilingual
+    cell_args:
+      device: cpu
+      trust_remote_code: true
+
+### Document processing settings ###
+
+input:
+  type: markitdown
+  file_pattern: ".*\\.txt"
+
+chunking:
+  type: tokens
+  size: 1200
+  overlap: 150
+  encoding_model: o200k_base
+
+### Storage settings ###
+
+input_storage:
+  type: file
+  base_dir: "input"
+
+output_storage:
+  type: file
+  base_dir: "output"
+
+reporting:
+  type: file
+  base_dir: "logs"
+
+cache:
+  type: json
+  storage:
+    type: file
+    base_dir: "cache"
+
+vector_store:
+  type: lancedb
+  db_uri: output\lancedb
+
+### Workflow settings ###
+
+embed_text:
+  embedding_model_id: default_embedding_model
+
+extract_graph:
+  completion_model_id: default
+  prompt: "prompts/extract_graph_entonly.txt"
+  gleaning_prompt: "prompts/extract_entities_gleaning.txt"
+  relationship_prompt: "prompts/relationship_extraction.txt" #to toggle separate call for relationship extraction, not default functionality
+  entity_types: [organization, person, geo, product, business segment, financial metric,debt instrument, regulation, event]
+  max_gleanings: 1
+  two_phase: true
+  relationship_passes: 2
+  relationship_entity_budget: 150
+  relationship_gleanings: 1
+  relationship_max_tokens: null
+  variant: v4_clean_inferred
+  inline_endpoint_classification: true
+  phase1_entities_only: true
+  pass_entity_list: true
+  filer_alias_file: filer_aliases.json
+
+summarize_descriptions:
+  completion_model_id: default
+  prompt: "prompts/summarize_descriptions.txt"
+  max_length: 500
+  max_tokens: 2000    # override global 24000 — summaries are short, no need to reserve 24K tokens
+
+extract_graph_nlp:
+  text_analyzer:
+    extractor_type: regex_english
+
+cluster_graph:
+  max_cluster_size: 6
+
+scoped_facts:
+  enabled: true
+  emit_claims: true
+  derive_scope: true
+  context_relationships: 5
+  label_pattern: '^([A-Z.-]+)_10k_(\d{4}).*$$'
+  label_replacement: '\1 FY\2'
+
+extract_claims:
+  enabled: false          # must stay off — mutually exclusive with scoped_facts.emit_claims
+  completion_model_id: default
+  prompt: "prompts/extract_claims.txt"
+  description: "Any claims or facts that could be relevant to information discovery."
+  max_gleanings: 1
+
+document_scoped_communities:
+  enabled: true
+  group_pattern: '^([A-Z.-]+)_10k_.*$$'
+  group_replacement: '\1'
+  stamp_reports: true     # adds SOURCE DOCUMENT header to community context blocks
+
+community_reports:
+  completion_model_id: default
+  graph_prompt: "prompts/community_report_graph.txt"
+  text_prompt: "prompts/community_report_text.txt"
+  max_length: 1200
+  max_input_length: 3000
+
+snapshots:
+  graphml: true
+  embeddings: true
+  raw_graph: true   # required for edge_claims.py (raw_relationships.parquet)
+
+### Query settings (the A/B harness overrides `completion_model_id` per run) ###
+
+local_search:
+  completion_model_id: default
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/local_search_system_prompt.txt"
+
+global_search:
+  completion_model_id: default
+  map_prompt: "prompts/global_search_map_system_prompt.txt"
+  reduce_prompt: "prompts/global_search_reduce_system_prompt.txt"
+  knowledge_prompt: "prompts/global_search_knowledge_system_prompt.txt"
+
+drift_search:
+  completion_model_id: default
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/drift_search_system_prompt.txt"
+  reduce_prompt: "prompts/drift_reduce_prompt.txt"
+
+basic_search:
+  completion_model_id: default
+  embedding_model_id: default_embedding_model
+  prompt: "prompts/basic_search_system_prompt.txt"

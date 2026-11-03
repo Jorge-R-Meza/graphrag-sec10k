@@ -1,0 +1,1300 @@
+ITEM 1. BUSINESS.
+
+Skyworks Solutions, Inc., together with its consolidated subsidiaries (“Skyworks” or the “Company”), is a leading developer, manufacturer and provider of analog and mixed-signal semiconductor products and solutions for numerous applications, including aerospace, automotive, broadband, cellular infrastructure, connected home, defense, entertainment and gaming, industrial, medical, smartphone, tablet, and wearables.
+
+Over the past two decades, Skyworks has made important investments to address key network technologies, from cellular to advanced Wi-Fi ® , enhanced GPS, and Bluetooth ® , among others. Capitalizing on both organic growth and strategic acquisitions, we are targeting high-growth verticals, while at the same time, seeking to diversify our revenue and customer set.
+
+Targeted investments in next-generation technology and solutions, technical talent, and fabrication capabilities have created the opportunity to expand into high-growth market segments, including electric and hybrid vehicles, industrial and motor control, power supply, 5G wireless infrastructure, optical data communication, data center, automotive, smart home, and several other applications.
+
+Our key customers include Amazon, Apple Inc. (“Apple”), Arcadyan, Arris, Bose, Ciena, Cisco, Ericsson, Fibocom, Garmin, Gemalto (a Thales company), General Electric, Google, Honeywell, Itron, Lenovo, LG Electronics, Microsoft, Motorola, NETGEAR, Nokia, Northrop Grumman, OPPO, Rockwell Collins, Sagemcom, Samsung, Schneider Electric, Sierra Wireless, Sonos, Sony, Technicolor, Telit, Tesla, TP-Link, VIVO, and Xiaomi. Our competitors include Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.
+
+We operate worldwide with engineering, manufacturing, sales, and service facilities throughout Asia, Europe, and North America. Our Internet address is www.skyworksinc.com. We make available free of charge on our website our Annual Report on Form 10-K, quarterly reports on Form 10-Q, current reports on Form 8-K, and amendments to those reports as soon as reasonably practicable after we electronically file such material with, or furnish it to, the SEC. The information contained on our website is not incorporated by reference in this Annual Report on Form 10-K and the inclusion of our website address in this report is an inactive textual reference only. Our SEC filings are also available to the public at www.sec.gov.
+
+Industry Background
+
+Wireless connectivity is expanding on a global basis. A widening range of use cases is driving the high demand for wireless data across a broad array of applications. The advancement of 5G adoption, IoT, connectivity for everyone, automotive electrification and safety, as well as augmented reality and virtual reality technology, all demand faster speeds, increased bandwidth and capacity, significantly lower latency, and more reliable and secure wireless connectivity.
+
+The speed and ultra-low latency characteristics inherent in 5G technology are dramatically altering wireless connectivity, creating a market for diverse and transformative applications, and changing how individuals live, work, play, and learn. Most of the world’s largest economies have implemented commercial 5G networks, and the world’s leading smartphone manufacturers have launched multiple generations of 5G-enabled devices.
+
+We expect to see a continued expansion in data consumption, dependent on seamless and reliable wireless connectivity. A few statistics illustrate this point. According to the 2025 Ericsson Mobility Report, global mobile data for 5G subscriptions are forecast to reach 6.3 billion by the end of 2030, driven by new users, innovative services, and the convergence of artificial intelligence (“AI”) and 5G technology, and the total number of global IoT connections is now forecast to reach approximately 43 billion by 2030, including connected cars, machines, meters, sensors, point-of-sale terminals, consumer electronics and wearables. Connected cars are forecasted by McKinsey to make up 90% of new vehicles sold globally by 2030.
+
+Skyworks helps facilitate these opportunities with highly customized solutions that support a broad set of wireless systems and protocols including cellular (such as 5G), Wi-Fi ® , GPS, Bluetooth ® , Accutime™, HD-Radio™, LoRa ® , Thread ® , Wi-Sun ® , and Zigbee ® . Additionally, Wi-Fi ® 8, the next generation of Wi-Fi ® technology, complements 5G by providing high-speed wireless connectivity in local environments. Faster data rates and improved efficiency cater to the growing number of devices reliant on wireless networks.
+
+We believe AI can be a catalyst for more efficient and effective wireless communications. From endpoint devices to data centers, generative AI applications will drive the need for higher speed and higher bandwidth networks, while increasing the requirements for our precision timing solutions.
+
+6
+
+Table of Contents
+
+The first wave of AI-capable phones is reaching scale, and early demand signals are encouraging. As AI capabilities become more intuitive and integrated, we believe this could drive an inflection in upgrade cycles, leading to a potential tailwind to volumes and content over time.
+
+Finally, with the rapid transition towards electrification and advanced safety in vehicles, we are focused on high growth segments and content opportunities, including (i) power isolation chips for on-board chargers, powertrain, and battery management systems in electric vehicles, (ii) connectivity, with telematics and other solutions being enabled by 4G/5G cellular engines, Wi-Fi ® , Bluetooth ® , Ultra-wide band, Ethernet, and GPS, and (iii) in-vehicle infotainment systems, driven by digital radio coprocessors, and solutions supporting advanced driver-assistance systems and autonomous driving.
+
+Solving Connectivity Challenges
+
+Highly integrated semiconductor solutions are pivotal in deploying next-generation standards, resolving analog, mixed-signal, and RF complexities that challenge existing hardware and network infrastructure. Addressing these design challenges requires diverse competencies including signal transmission, seamless hand-offs between multiple standards, power management, voltage regulation, battery charging, advanced filtering, and tuning.
+
+We are at the forefront of this new era of connectivity, delivering the solutions that help enable the true potential of 5G and IoT. We have a rich heritage in analog systems design and have spent years investing in key technologies and resources. Our strength is underpinned by world-class performance and scale across a broad array of capabilities that include advanced TC-SAW and BAW filters, an expanded family of MIMO, ultra-high band, and diversity receive modules, timing devices, and digital power isolators. From our breakthrough Sky5 ® unifying platform to our 5G small cell solutions, our approach across both infrastructure and user equipment facilitates powerful, high-speed, end-to-end 5G connectivity.
+
+Skyworks’ Strategy
+
+Major elements of our strategy include:
+
+Industry-Leading Technology
+
+As the industry migrates to more complex 5G architectures across a multitude of wireless applications, we are poised to help our customers handle growing levels of system complexity across both the transmit and receive chains. The trend towards increasing front-end and analog design challenges in smartphones and other platforms plays directly into our core strengths. Additionally, accelerating AI trends could catalyze the smartphone transformation with incremental content driving unprecedented functional and physical densities. These advancements will deliver more bandwidth, faster speeds, and enable applications like virtual reality, augmented reality, live video streaming, and seamless IoT connectivity. Crucially, they aim to bring us closer to achieving reliable low latency, ideal for massive machine communications, and introduces non-terrestrial networks that enable satellite connectivity for emergency applications.
+
+We believe that we offer the broadest portfolio of radio and analog solutions from the transceiver to the antenna as well as all required manufacturing process technologies. We are also a leader in passive devices, advanced integration, including proprietary shielding and 3-D die stacking, as well as SAW, TC-SAW, and BAW filters. Our product portfolio is reinforced by a library of approximately 5,200 worldwide issued patents and other intellectual property that we own and control. Together, our industry-leading technology enables us to deliver the highest levels of product performance and integration.
+
+Customer Relationships
+
+Given our scale and technology leadership, we are engaged with leading original equipment manufacturers (“OEMs”), smartphone providers, and baseband reference design partners in the analog and mixed-signal semiconductor industry. Our customers value the scale of our global supply chain, our innovative technology, our ability to curate and deliver unique solutions, and our system engineering expertise, resulting in deep customer loyalty. We partner with our customers to support their long-term product road maps and are valued as a system solutions provider rather than just a discrete product vendor.
+
+Diversification
+
+We are diversifying the reach of our business by expanding our addressable markets and broadening our product portfolio to serve a wider array of global customers. With the increasing adoption of 5G and the opportunity to enable more applications, we are growing our business beyond mobile devices (where we support leading top-tier manufacturers, including the leading smartphone suppliers and key baseband vendors) into additional high-performance analog markets, including automotive, home and factory automation, data center, solar, wireless infrastructure, aerospace and defense, medical, smart energy, and wireless
+
+7
+
+Table of Contents
+
+networking. In these markets we leverage our scale, intellectual property, and worldwide distribution network, which spans approximately 6,900 customers and 4,900 unique products.
+
+Delivering Operational Excellence
+
+Through advanced supply chain management, we combine our highly specialized internal manufacturing capabilities with alliances and strategic relationships for leading-edge technologies. This hybrid manufacturing model allows us to better balance our manufacturing capacity with the demand of the marketplace.
+
+Additionally, we continue to drive reductions in product design and manufacturing cycle times and further improve product yields. The combination of agile, flexible capacity, and world-class module manufacturing and scale advantage allows us to achieve low product costs while integrating multiple technologies into highly sophisticated multi-chip modules and helping to ensure stable supply to our global customer base.
+
+Maintaining a Performance-Driven Culture
+
+We consider our people and corporate culture to be a competitive advantage and a key component of our corporate strategy, aligning employee efforts and responsibilities with performance measurement. Accountability is paramount, and we compensate our employees through a pay-for-performance methodology.
+
+Generating Superior Operating Results and Stockholder Returns
+
+We believe our manufacturing scale, broad product portfolio, strong profitability, and consistent cash flow generation position us to provide superior results and strong returns to our stockholders.
+
+Our Product Portfolio
+
+Our extensive product portfolio includes:
+
+• Amplifiers: the modules that strengthen the signal so that it has sufficient energy to reach a base station
+
+• Antenna Tuners: aperture and impedance tuning products that improve antenna performance across frequencies
+
+• Attenuators: circuits that allow a known source of power to be reduced by a predetermined factor (usually expressed as decibels)
+
+• Automotive Tuners and Digital Radios: tuners, data receivers, and digital radio coprocessors used in automotive infotainment systems
+
+• Wireless ASoC: an intelligent 2.4 GHz and 5GHz wireless radio integrated circuit that includes all the analog and digital functions optimized for building cognitive wireless audio headsets, headphones, and wireless speaker systems
+
+• DC/DC Converters: an electronic circuit which converts a source of direct current from one voltage level to another
+
+• Demodulators: a device or an RF block used in receivers to extract the information that has been modulated onto a carrier or from the carrier itself
+
+• Detectors: devices used to measure and control RF power in wireless systems
+
+• Digital Power Isolators: energy efficient solutions used in industrial control, solar inverters and hybrid/electric automotive drive trains
+
+• Diodes: semiconductor devices that pass current in one direction only
+
+• Directional Couplers: transmission coupling devices for separately sampling the forward or backward wave in a transmission line
+
+• Diversity Receive Modules: devices used to improve receiver sensitivity in high data rate applications
+
+• Filters: devices for recovering and separating mixed and modulated data in RF stages, including SAW, TC-SAW, and BAW filters
+
+• Front-end Modules: two or more functions co-packaged to optimize the performance, cost, and application suitability in products, including intermediate or radio frequency signal paths
+
+• Hybrid: a type of directional coupler used in radio and telecommunications
+
+• LED Drivers: devices which regulate the current through a light-emitting diode or string of diodes for the purpose of creating light
+
+• Low-Noise Amplifiers: devices used to reduce system noise figure in the receive chain
+
+• Mixers: devices that enable signals to be converted to a higher or lower frequency signal and thereby allowing the signals to be processed more effectively
+
+• Modulators: devices that take a baseband input signal and output a radio frequency modulated signal
+
+• Optocouplers/Optoisolators: semiconductor devices that allow signals to be transferred between circuits or systems while ensuring that the circuits or systems are electrically isolated from each other
+
+8
+
+Table of Contents
+
+• Phase Locked Loops: closed-loop feedback control system that maintains a generated signal in a fixed phase relationship to a reference signal
+
+• Phase Shifters: designed for use in power amplifier distortion compensation circuits in base station applications
+
+• Power Dividers/Combiners: utilized to equally split signals into in-phase signals as often found in balanced signal chains and local oscillator distribution networks
+
+• Power over Ethernet: enables both data and power to be sent over standard ethernet cable.
+
+• Power Isolators: digital, analog isolators, and isolated gate drivers used in industrial control, solar inverters, hybrid/electric automotive systems and charging stations
+
+• ProSLIC ® family of subscriber line interface circuits: provides complete analog telephone interfaces for premise equipment and enterprise
+
+• Receivers: electronic devices that change a radio signal from a transmitter into useful information (including broadcast receivers)
+
+• System In Package: complete system in a package, including modem, RF front-end, filtering, matching, timing generation – typically, fully certified by regulatory bodies, industry bodies and multi-service operators
+
+• Switches: components that perform the change between the transmit and receive function, as well as the band function for cellular handsets
+
+• Synthesizers: devices that provide ultra-fine frequency resolution, fast switching speed, and low phase-noise performance
+
+• Timing Devices: clock generators, oscillators, jitter attenuators, and buffers used in optical networking, data center, wireless base stations, industrial, and automotive applications
+
+• Voltage Controlled Oscillators/Synthesizers: fully integrated, high performance signal source for high dynamic range transceivers
+
+• Voltage Regulators: generate a fixed level which ideally remains constant over varying input voltage or load conditions
+
+We believe we possess broad technology capabilities and one of the most complete wireless communications product portfolios in the industry.
+
+Marketing and Distribution
+
+Our products are sold globally through a direct sales force, electronic component distributors, and independent sales representatives. As is customary in the semiconductor industry, our distributors may also market other products that compete with ours.
+
+Our sales engagement begins at the earliest stages of the design of an existing or potential customer’s product. We collaborate technically with our customers and reference design partners at the inception of new programs. These relationships allow our team to facilitate customer-driven solutions, which leverage the unique strength of our intellectual property and product portfolio while providing high value and greatly reducing time-to-market.
+
+We believe the technical and complex nature of our products and markets demand an extraordinary commitment to maintain close ongoing relationships with our customers. We also employ a collaborative approach in developing these relationships by combining the support of our design teams, applications engineers, manufacturing personnel, sales and marketing staff, and senior management. Lastly, we leverage our customer relationships with cross-selling opportunities across product lines in order to maximize revenue.
+
+We believe that maintaining frequent and interactive contact with our customers is paramount to our continuous efforts to provide world-class sales and service support. By listening and responding to feedback, we are able to mobilize resources to raise our level of customer satisfaction, improve our ability to anticipate future product needs, and enhance our understanding of key market dynamics. We are confident that diligently following this path positions us to participate in numerous opportunities for growth in the future.
+
+Customer Concentration
+
+A small number of OEMs historically has accounted for a significant portion of our net revenue. In each of the fiscal years ended October 3, 2025 (“fiscal 2025”), September 27, 2024 (“fiscal 2024”), and September 29, 2023 (“fiscal 2023”), Apple, through sales to multiple distributors and contract manufacturers for multiple applications including smartphones, tablets, desktop and notebook computers, watches, and other devices, constituted more than ten percent of our net revenue. Further, the Company’s three largest accounts receivable balances comprised 82% and 80% of aggregate gross accounts receivable as of
+
+9
+
+Table of Contents
+
+October 3, 2025 and September 27, 2024, respectively. For further information regarding customer concentrations, see Note 14 to Item 8 of this Annual Report on Form 10-K.
+
+Intellectual Property and Proprietary Rights
+
+We own or have a license to use numerous United States and foreign patents and patent applications related to our products and our manufacturing operations and processes. In addition, we own a number of trademarks and service marks applicable to certain of our products and services. We believe that our intellectual property, including patents, patent applications, trade secrets, and trademarks, is of material importance to our business. We rely on patent, copyright, trademark, trade secret, and other intellectual property laws, as well as non-disclosure and confidentiality agreements and other methods, to protect our confidential and proprietary technologies, designs, devices, algorithms, processes, and other intellectual property. Our efforts may not meaningfully protect our intellectual property, or others may independently develop substantially equivalent or superior proprietary technologies, designs, devices, algorithms, processes, or other intellectual property. In addition, the laws of some foreign countries do not protect proprietary rights to the same extent as the laws of the United States, and effective copyright, patent, trademark, and trade secret protection may not be available in those jurisdictions. In addition to protecting our intellectual property, we strive to strengthen our intellectual property portfolio to enhance our ability to obtain cross-licenses of intellectual property from others, to obtain access to intellectual property we do not possess, and to more favorably resolve potential intellectual property claims against us. Due to rapid technological changes in the industry, we believe establishing and maintaining a technological leadership position depends primarily on our ability to develop new, innovative products through the technical competence of our engineering personnel.
+
+Competitive Conditions
+
+The competitive environment in the semiconductor industry is in a constant state of flux, with new products continually emerging and existing products approaching technological obsolescence. We compete on the basis of time-to-market, new product innovation, quality, performance, price, compliance with industry standards, strategic relationships with customers and baseband vendors, personnel resources, and protection of our intellectual property. We participate in highly competitive markets against numerous competitors that may be able to adapt more quickly to new or emerging technologies and changes in customer requirements, or may be able to devote greater resources to the development, promotion, and sale of their products.
+
+Research and Development
+
+Our products and markets demand rapid technological advancements requiring a continuous effort to enhance existing products and develop new products and technologies. Accordingly, we maintain a high level of research and development activity. We invested $785.5 million, $631.7 million, and $606.8 million in research and development during fiscal 2025, fiscal 2024, and fiscal 2023, respectively. The level of research and development expenses were the result of increases in our internal product designs and product development activity for our target markets in each of these fiscal years. Our research and development expenses include new product development and innovations in integrated circuit design, investment in advanced semiconductor manufacturing processes, development of new packaging and test capabilities, and research on next-generation technologies and product opportunities. We maintain close collaborative relationships with many of our customers to help identify market demands and target our development efforts to meet those demands.
+
+Raw Materials
+
+Raw materials for our products and manufacturing processes are generally available from several sources. It is our intent not to depend on a sole source of supply unless market or other conditions dictate otherwise. However, there are limited situations where we procure certain components and services for our products from single or limited sources, and we are currently dependent on a limited number of sole-source suppliers. We purchase materials and services primarily pursuant to individual purchase orders. However, we have entered into certain supply agreements for the purchase of raw materials or other manufacturing-related services that specify minimum prices and purchase quantity based on our anticipated future requirements. Certain of our suppliers consign raw materials to us at our manufacturing facilities to which we take title as needed in our manufacturing process. We have taken strategic action with suppliers located around the world to secure sourcing of the raw materials and components necessary for our manufacturing.
+
+Backlog and Inventory
+
+Our sales are primarily from the sale of semiconductor products under individual customer purchase orders, some of which have underlying master sales agreements that specify terms governing the product sales. In the absence of a sales agreement, the Company’s standard terms and conditions apply. Due to industry practice, which allows customers to cancel orders with limited advance notice to us prior to shipment, and with little or no penalty, we believe that backlog as of any particular date may not be a reliable indicator of our future revenue levels. The cancellation or deferral of product orders, the return of previously sold
+
+10
+
+Table of Contents
+
+products, or overproduction due to a change in anticipated order volume could result in a reduction in revenue and us holding excess or obsolete inventory, which could result in inventory write-downs and, in turn, could have a material adverse effect on our financial condition.
+
+Government Regulations
+
+We are subject to international, federal, state, and local legislation, regulations, and other requirements relating to the discharge of substances into the environment; the treatment, transport, and disposal of hazardous wastes; recycling and product packaging; worker health and safety; and other activities affecting the environment, our workforce, and the management of our manufacturing operations. In addition, most of our customers have mandated that our operations and our products comply with various sustainability initiatives and workers’ rights initiatives initiated by such customers, industry groups in which such customers participate, or the jurisdictions in which such customers operate. We believe that our operations and facilities comply in all material respects with applicable environmental laws and worker health and safety laws. Our efforts to comply with environmental laws and worker health and safety laws could have material impacts on our capital expenditures, competitive position, or financial condition, though the magnitude and duration of such impacts are uncertain and difficult to quantify.
+
+We are also subject to import/export controls, tariffs, and other trade-related regulations and restrictions in the countries in which we have operations or otherwise do business. These controls, tariffs, regulations, and restrictions (including those discussed below in Item 1A, Risk Factors) have had, and we believe may continue to have, a material impact on our business, including our ability to sell products and to manufacture or source components.
+
+Government regulations are subject to change in the future, and accordingly we are unable to assess the possible effect of compliance with future requirements or whether our compliance with such regulations will materially impact our business, results of operations, or financial condition.
+
+Seasonality
+
+Sales of our products are subject to seasonal fluctuation and periods of increased demand in end-user consumer applications, such as smartphones and tablet computing devices. The highest demand for our products generally occurs in our first fiscal quarter ending in December and the fourth fiscal quarter ending in September. The lowest demand for our products generally occurs in our second fiscal quarter ending in March and the third fiscal quarter ending in June.
+
+Employees
+
+Our workforce consists of approximately 10,000 employees located around the world, more than 99% of whom are full-time employees. As of October 3, 2025:
+
+• Our workforce was distributed geographically approximately as follows: 54% in Mexico, 24% in the United States, 20% in Asia, 1% in Canada, and less than 1% in Europe.
+
+• Our workforce was distributed by function approximately as follows: 39% in individual contributor manufacturing roles, 36% in engineering or technician roles, 12% in managerial roles, and 13% in professional or other administrative roles.
+
+• Approximately 3,260 of our employees in Mexico, 550 of our employees in Singapore, and 460 of our employees in Japan were covered by collective bargaining and other union agreements.
+
+We focus on attracting and retaining employees by providing compensation and benefits packages that are competitive within the applicable market for each position. Nearly all full-time employees across the globe are eligible to participate in one of the Company’s incentive plans, under which payments are tied to pre-established performance goals, as well as to purchase shares of the Company’s common stock at a discount from its market price pursuant to the Company’s employee stock purchase plans. In addition, we believe that developing our employees’ skill sets and decision-making abilities—through challenging project assignments, formal training, mentorship, and recognition—is key not only to our employees’ job satisfaction and our retention efforts, but also to maintaining a strong leadership pipeline.
+
+11
+
+Table of Contents
+
+
+ITEM 1A. RISK FACTORS.
+
+You should carefully consider the risks described below, some of which have manifested and any of which may occur in the future, in addition to the other information contained in this report before making an investment decision with respect to any of our securities. Our business, results of operations, and financial condition could be materially and adversely impacted by any of these risks, which could, in turn, adversely affect our stock price. Additional risks not currently known to us or other factors not perceived by us as material risks could also present significant risks to our business.
+
+Risk Factors Summary
+
+The following is a summary of the principal risks that could adversely affect our business, operations, and financial results. This summary is intended to provide investors with an overview of the risks we face and should not be considered a substitute for the more detailed risk factors discussed immediately following this summary.
+
+Risks Associated with the Proposed Transaction with Qorvo
+
+• Completion of the proposed transaction with Qorvo may be delayed or not occur at all for a variety of reasons, including that the Merger Agreement is terminated, and the failure to complete the Mergers could adversely affect our business, results of operations, financial condition, and the market price of our common stock.
+
+• Completion of the proposed Mergers is subject to the satisfaction or waiver of closing conditions contained in the Merger Agreement, including certain regulatory approvals which may not be received, may take longer than expected or the receipt of which may impose conditions that are not presently anticipated or that cannot be met, and if these closing conditions are not satisfied or waived, the proposed Mergers will not be completed.
+
+• Failure to realize the benefits expected from the Mergers could adversely affect our business, results of operations, and financial condition.
+
+• Efforts to complete the Mergers could disrupt our relationships with third parties and employees, divert management’s attention, or result in negative publicity or legal proceedings, any of which could adversely impact our operating results and ongoing business.
+
+• The Merger Agreement contains provisions that limit our ability to pursue alternative transactions to the Mergers which could discourage a potential third party from making an alternative transaction proposal.
+
+• While the Merger Agreement is in effect, we are subject to restrictions on our business activities.
+
+• As a result of the Mergers, we anticipate that the scope and size of our operations and business will substantially change and will result in certain incremental risks to us, including increased competition. We may not realize the full expected benefits of the Mergers.
+
+• The Mergers will require us to incur substantial additional indebtedness, which could reduce our flexibility to operate our business and negatively affect our financial condition, and increase the risks associated with our level of indebtedness.
+
+Risks Associated with Operating a Global Business
+
+• The risks of doing business internationally apply to all aspects of our operations.
+
+• Changes in tax laws and regulations could have an adverse impact on our operating results.
+
+• We, our customers and our suppliers are subject to the risks of doing business in China.
+
+Risks Associated with the Development, Manufacturing, and Sale of Our Products
+
+• Our operating results may be adversely affected by quarterly and annual fluctuations.
+
+• We rely on a small number of customers for a large portion of our sales.
+
+• We rely on Original Equipment Manufacturers (“OEMs”) and Original Design Manufacturers (“ODMs”) to design our products into their end products.
+
+• Our manufacturing processes are extremely complex, specialized, and subject to disruption.
+
+• We may not be able to maintain and improve manufacturing yields.
+
+• We are dependent upon third parties for the manufacture, assembly, and testing of our products.
+
+• We are dependent upon third parties for the supply of raw materials and components.
+
+• We may not be able to effectively operate our business if we are unable to attract and retain qualified personnel.
+
+• Our business could be adversely affected by the departure of existing members of our senior management team or if our senior management team is unable to effectively implement our strategy.
+
+• If our senior management transitions are not successful, our business and future growth prospects could be harmed.
+
+• We are subject to uncertainties involving the ordering and shipment of, and payment for, our products.
+
+• We face a risk that capital needed for our business will not be available when we need it.
+
+• We are exposed to risks related to the use of AI tools by us and others.
+
+• We may encounter problems upgrading, enhancing, and improving our enterprise applications.
+
+12
+
+Table of Contents
+
+Risks Related to Acquisitions and Indebtedness
+
+• To be successful, we may need to make additional investments and acquisitions, integrate companies we acquire, and/or enter into strategic alliances.
+
+• Our outstanding indebtedness could reduce our flexibility to operate our business.
+
+Risks Associated with Our Industry
+
+• The semiconductor industry is highly cyclical and subject to significant downturns.
+
+• The wireless communications, analog and mixed-signal semiconductor markets are characterized by significant competition.
+
+• Remaining competitive in the semiconductor industry depends upon our ability to constantly innovate.
+
+• Increasingly stringent environmental laws, rules, regulations, and customer expectations may require us to redesign our existing products and processes, which could adversely affect our ability to cost-effectively produce our products.
+
+Risks Associated with Cybersecurity and Intellectual Property Protection
+
+• We may not be able to prevent, or timely detect, information technology security breaches.
+
+• In order to remain competitive, we must be able to successfully protect our intellectual property rights.
+
+• We are subject to the risks of licensing third-party intellectual property.
+
+Risks Associated with Claims and Litigation
+
+• We may be subject to risks of litigation and disputes.
+
+• We may be subject to claims of infringement of third-party intellectual property rights or demands that we license third-party technology.
+
+• We may be subject to warranty claims, product recalls, and other liability claims .
+
+Risks Associated with Owning our Common Stock
+
+• Our stock price has been volatile and may fluctuate in the future.
+
+• There can be no assurance that we will continue to declare cash dividends or repurchase our stock.
+
+• Certain provisions in our organizational documents and Delaware law may make it difficult for someone to acquire control of us.
+
+Risks Associated with the Proposed Transaction with Qorvo
+
+Completion of the proposed transaction with Qorvo may be delayed or not occur at all for a variety of reasons, including that the Merger Agreement is terminated, and the failure to complete the Mergers could adversely affect our business, results of operations, financial condition, and the market price of our common stock.
+
+On October 27, 2025, we entered into the Agreement and Plan of Merger (“Merger Agreement”) with Qorvo, Inc. (“Qorvo”), Comet Acquisition Corp. (“Merger Sub I”), and Comet Acquisition II, LLC (“Merger Sub II”), pursuant to which Merger Sub I will be merged with and into Qorvo (the “First Merger”), with Qorvo as the surviving entity in the First Merger (the “Surviving Corporation”) with the Surviving Corporation continuing as a wholly owned subsidiary of the Company, and immediately following the First Merger, and as the second step in a single integrated transaction with the First Merger, the Surviving Corporation will be merged with and into Merger Sub II (the “Second Merger,” and together with the First Merger, the “Mergers”), with Merger Sub II as the surviving entity in the Second Merger and a wholly owned subsidiary of the Company. Completion of the Mergers is subject to customary closing conditions, including (1) the adoption of the Merger Agreement by Qorvo’s stockholders, and the approval of the issuance of common stock as merger consideration by the Company’s stockholders as required under Nasdaq listing rules, (2) the expiration or early termination of the applicable waiting period under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, and the approval of the Mergers under certain other antitrust and foreign investment regimes, (3) the absence of any order, injunction or law prohibiting the Mergers in such jurisdictions, (4) the effectiveness of the registration statement pursuant to which shares of the Company’s common stock to be issued in the Mergers will be registered with the SEC, (5) the accuracy of the other party’s representations and warranties, subject to certain standards set forth in the Merger Agreement, (6) compliance in all material respects by the other party with its obligations under the Merger Agreement, and (7) the absence of a continuing material adverse effect with respect to each party. Therefore, there can be no assurance that the Mergers will be completed in the expected timeframe (early in calendar year 2027), or at all.
+
+The Merger Agreement may be terminated under certain circumstances, including that either party may terminate if the Mergers are not completed by April 27, 2027, which date may be extended to July 27, 2027, and to October 27, 2027, in each case under certain circumstances as provided in the Merger Agreement (the “Outside Date”). Upon termination of the Merger Agreement, each party under specified circumstances, including termination by such party to accept a Superior Proposal (as defined in the Merger Agreement) or termination by the other party upon a change in such party’s board of directors’ recommendation to its
+
+13
+
+Table of Contents
+
+stockholders, will be required to pay the other party a termination fee of $298.7 million. Alternatively, we, under specified circumstances, including termination following an injunction arising in connection with certain antitrust or foreign investment laws, or failure to receive certain required regulatory approvals of specified governmental authorities by the Outside Date, will be required to pay Qorvo a termination fee of $100.0 million.
+
+Failure to complete the Mergers within the expected timeframe or at all could adversely affect our business and the market price of our common stock in a number of ways, including:
+
+• the market price of our common stock may decline to the extent that the current market price reflects an assumption that the Mergers will be consummated;
+
+• if the Merger Agreement is terminated under certain circumstances specified in the Merger Agreement, we would be required to pay a termination fee of $298.7 million or $100.0 million, as described above;
+
+• we have incurred, and will continue to incur, significant expenses for professional services in connection with the Mergers for which we will have received little or no benefit if the Mergers are not consummated; and
+
+• we may experience negative publicity and/or reactions from our investors, employees, customers, suppliers, distributors and other business partners.
+
+Completion of the proposed Mergers is subject to the satisfaction or waiver of closing conditions contained in the Merger Agreement, including certain regulatory approvals which may not be received, may take longer than expected or the receipt of which may impose conditions that are not presently anticipated or that cannot be met, and if these closing conditions are not satisfied or waived, the proposed Mergers will not be completed.
+
+Various consents, clearances, approvals, authorizations and declarations of non-objection, or expiration of waiting periods (or extensions thereof), from certain regulatory and governmental authorities in the United States and certain other jurisdictions are included in the Merger Agreement as conditions to completing the proposed Mergers. Regulatory and governmental entities may impose conditions on their respective approvals, in which case lengthy negotiations may ensue among such regulatory or governmental entities, the Company and Qorvo. Such conditions, any such negotiations and the process of obtaining such regulatory approvals, consents or clearances, including any potential changes to the terms of the Mergers, could have the effect of delaying or preventing consummation of the proposed Mergers.
+
+Subject to the terms of the Merger Agreement, we have agreed to use our reasonable best efforts to take all actions necessary to consummate the Mergers, including cooperating to obtain the regulatory approvals necessary to complete the Mergers. Nonetheless, certain conditions to the completion of the pending Mergers are not within our or Qorvo’s control, and we cannot predict when or if these conditions will be satisfied (or waived, as applicable). There can be no assurance that all required approvals will be obtained or that all closing conditions will otherwise be satisfied (or waived, if applicable), and, if all required approvals are obtained and all closing conditions are satisfied (or waived, if applicable), we can provide no assurance as to the terms, conditions and timing of such approvals or that the pending Mergers will be completed in a timely manner or at all. Even if regulatory approvals are obtained, it is possible conditions will be imposed that could result in a material delay in, or the abandonment of, the pending Mergers or otherwise have an adverse effect on the Company.
+
+Failure to realize the benefits expected from the Mergers could adversely affect our business, results of operations, and financial condition.
+
+The anticipated benefits we expect from the Mergers are based on projections and assumptions about our combined business with Qorvo, which may not materialize as expected or which may prove to be inaccurate. Our business, operating results and financial condition could be adversely affected if we are unable to realize the anticipated benefits from the Mergers on a timely basis, if at all, including, among other things, realizing the anticipated cost and operational synergies from the Mergers in the anticipated amounts or within the anticipated timeframes or cost expectations, if at all. Achieving the benefits of the Mergers will depend, in part, on our ability to integrate the business and operations of Qorvo successfully and efficiently with our business. The challenges involved in this integration, which may be complex and time-consuming, include, among others, the following:
+
+• avoiding business disruptions, preserving customer and other important relationships of Qorvo and attracting new business and operational relationships;
+
+• coordinating and integrating independent research and development and engineering teams across technologies and product platforms to enhance product development while reducing costs;
+
+• integrating financial forecasting and controls, procedures and reporting cycles;
+
+• consolidating and integrating corporate, IT, finance, human resources and administrative infrastructures;
+
+• coordinating sales and marketing efforts to effectively position the combined company’s capabilities and the direction of product development;
+
+• integrating Qorvo’s systems, operations and product lines;
+
+• meeting obligations that we will have to counterparties of Qorvo that arise as a result of the change in control of Qorvo; and
+
+14
+
+Table of Contents
+
+• integrating employees and related HR systems and benefits, maintaining employee productivity and retaining key employees.
+
+If we do not successfully manage these issues and the other challenges inherent in integrating a new business, then we may not achieve the anticipated benefits of the Mergers on our anticipated timeframe, if at all, and our business, revenue, expenses, operating results, financial condition and stock price could be materially adversely affected.
+
+Efforts to complete the Mergers could disrupt our relationships with third parties and employees, divert management’s attention, or result in negative publicity or legal proceedings, any of which could adversely impact our operating results and ongoing business.
+
+We have expended, and continue to expend, significant management time and resources in an effort to complete the Mergers, which may have a negative impact on our ongoing business and operations. Uncertainty regarding the outcome of the Mergers and our future could disrupt our business relationships with our existing and potential customers, distributors, service providers and other business partners, who may attempt to negotiate changes in existing business relationships or consider entering into business relationships with parties other than Qorvo. Uncertainty regarding the outcome of the Mergers could also adversely affect our ability to recruit and retain key personnel and other employees. The pendency of the Mergers may also result in negative publicity and a negative impression of us in the financial markets, and may lead to litigation against us and our directors and officers. Even if the lawsuits are without merit, defending against or otherwise resolving these claims can result in substantial costs and divert management time and resources. Such litigation would be distracting to management and, may, in the future, require us to incur significant costs. Such litigation could result in the Mergers being delayed and/or enjoined by a court of competent jurisdiction, which could prevent the Mergers from being completed. The occurrence of any of these events individually or in combination could have a material and adverse effect on our business, results of operations, and financial condition.
+
+The Merger Agreement contains provisions that limit our ability to pursue alternative transactions to the Mergers which could discourage a potential third party from making an alternative transaction proposal.
+
+The Merger Agreement contains provisions that preclude us from soliciting proposals relating to alternative acquisition transactions or entering into discussions or negotiations or providing non-public information in connection with any proposal for an alternative acquisition transaction from a third party, subject to certain exceptions to permit our Board of Directors to comply with its fiduciary obligations. We have further agreed to cease and cause to be terminated any existing discussions or negotiations, if any, with regard to alternative acquisition transactions. These prohibitions could discourage a third party from making an alternative transaction proposal. Additionally, if the Merger Agreement is terminated and we determine to seek another business combination, we may not be able to negotiate a transaction with another party on terms comparable to, or better than, the terms of the Merger Agreement.
+
+While the Merger Agreement is in effect, we are subject to restrictions on our business activities.
+
+The Merger Agreement contains customary representations, warranties and covenants, including, among others, covenants regarding the conduct of our business during the pendency of the transactions contemplated by the Merger Agreement. These restrictions could prevent us from pursuing attractive business opportunities that may arise prior to the consummation of the Mergers and could have the effect of delaying or preventing other strategic transactions. Although we may be able to pursue such activities with Qorvo’s consent, there is no guarantee that Qorvo will provide us with the necessary consent.
+
+As a result of the Mergers, we anticipate that the scope and size of our operations and business will substantially change and will result in certain incremental risks to us, including increased competition. We may not realize the full expected benefits of the Mergers .
+
+We anticipate that the Mergers will substantially expand the scope and size of our business by adding substantial assets and operations to our existing business. The anticipated future growth of our business will impose significant added responsibilities on management, including, among other things, the need to identify, recruit, train and integrate additional employees. Our senior management’s attention may be diverted from the management of our business and its daily operations to the completion of the Mergers and the integration of Qorvo’s business. Further, the Mergers could also create uncertainty for our or Qorvo’s employees and customers, particularly during the post-transaction integration process. It could also disrupt existing business relationships, make it more difficult to develop new business relationships, or otherwise negatively impact the way that we operate our business.
+
+We also anticipate that the Mergers will result in increased competition. Qorvo operates in highly competitive segments and is facing increasing competition for its products and services. These competitive pressures may result in decreased sales volumes, price reductions and/or increased operating costs, and could result in lower revenues, margins and net income for the combined company. The Mergers could also result in our failure to realize expected synergies or cost savings. Our ability to manage our business and growth will require us to continue to improve our operational, financial and management controls, reporting systems and procedures. We may also encounter risks, costs and expenses associated with any undisclosed or other
+
+15
+
+Table of Contents
+
+unanticipated liabilities and use more cash and other financial resources on integration and implementation activities than we expect. We may not be able to integrate the Qorvo business into our existing operations on our anticipated timelines or realize the full expected economic benefits of the Mergers, which may have a material adverse effect on our business, operating results and financial condition.
+
+In addition, the completion of the Mergers may heighten the potential adverse effects on our business, operating results or financial condition described elsewhere in the Risk Factors in this Annual Report on Form 10-K.
+
+The Mergers will require us to incur substantial additional indebtedness, which could reduce our flexibility to operate our business and negatively affect our financial condition, and increase the risks associated with our level of indebtedness.
+
+We already have substantial outstanding indebtedness. For risks related to such indebtedness, see the risks set forth in “ Our outstanding indebtedness could reduce our flexibility to operate our business. ”
+
+We expect to incur a substantial amount of additional indebtedness in connection with the Mergers and have entered into the Bridge Commitment Letter for the purpose of financing a portion of the cash consideration to be paid in the Mergers, paying related fees and expenses in connection with the Mergers and the other transactions contemplated by the Merger Agreement and, in certain circumstances, if required, to refinance certain of Qorvo’s outstanding senior notes. We expect to use a portion of the proceeds from the facilities to repay Qorvo’s existing credit facility substantially concurrently with the completion of the Mergers.
+
+Our ability to obtain new debt financing will depend on, among other factors, prevailing market conditions and other factors beyond our control. We cannot assure you that we will be able to obtain new debt financing on terms acceptable to us or at all, and any such failure could materially adversely affect our operations and financial condition. Our obligation to complete the Mergers is not conditioned upon the receipt of any financing.
+
+In addition, in connection with the Mergers, we may choose to assume all or a portion of Qorvo’s outstanding senior notes. Qorvo’s senior notes contain restrictive covenants (subject to suspension in the event of investment grade ratings), some of which are more restrictive than those applicable to our current indebtedness, including those that would limit the ability of Qorvo (as our subsidiary) and certain of its subsidiaries to: incur additional debt; pay dividends, make other distributions or repurchase or redeem its capital stock; prepay, redeem or repurchase certain debt; make loans and investments; sell, transfer or otherwise dispose of assets; incur or permit to exist certain liens; enter into certain types of transactions with affiliates (including with us and our other subsidiaries); enter into agreements restricting its subsidiaries’ ability to pay dividends; and consolidate, amalgamate, merge or sell all or substantially all of its assets. As a result, the assumption of Qorvo’s senior notes, to the extent those covenants remain in effect, could limit our operating and financial flexibility.
+
+Following the Mergers, the substantial indebtedness incurred or assumed in connection with the Mergers could have materially adverse effects on our business, operating results and financial condition, including, among other things:
+
+• increasing our vulnerability to changing economic, regulatory and industry conditions;
+
+• limiting our ability to compete and our flexibility in planning for, or reacting to, changes in our business and the industry;
+
+• placing us at a competitive disadvantage compared to our competitors with less indebtedness;
+
+• increasing our interest expense and potentially requiring us to dedicate a substantial portion of our cash flow from operations to payments on our debt, thereby reducing the availability of cash to fund our business needs;
+
+• limiting our ability to return equity through stock repurchases or pay dividends to our stockholders;
+
+• limiting our ability to borrow additional funds in the future to fund growth, acquisitions, working capital, capital expenditures or other purposes; and
+
+• increasing the risks described under “ Our outstanding indebtedness could reduce our flexibility to operate our business. ”
+
+Risks Associated with Operating a Global Business
+
+The risks of doing business internationally apply to all aspects of our operations.
+
+We derive significant revenues from customers located outside the United States, primarily in countries located in the Asia-Pacific region and Europe. We have suppliers located outside the United States, including third-party packaging, assembly, and test facilities and semiconductor foundries located in the Asia-Pacific region. We also operate our own wafer processing facilities in Osaka, Japan, as well as packaging, assembly, and test facilities in Singapore and in Mexicali, Mexico. Our international sales and operations are subject to a number of risks inherent in selling and operating in multiple jurisdictions. These include, but are not limited to, risks regarding:
+
+• recession or economic downturn globally or in the jurisdictions in which we do business,
+
+• currency controls and currency exchange rate fluctuations, including increases or decreases in commodities prices related to such fluctuations,
+
+16
+
+Table of Contents
+
+• inflation or deflation, as well as changes in existing and expected rates of inflation or deflation, which may vary across the jurisdictions in which we do business,
+
+• interest rates, as well as changes in existing and expected interest rates, which may vary across the jurisdictions in which we do business,
+
+• global, regional, and local economic and political conditions, including social, economic, political, and supply chain instability related to the uncertainty regarding the relationships among the United States, China, Taiwan, Russia, Mexico, Israel, other Middle Eastern countries, Japan, Singapore, India, Canada and other foreign countries, and the international community at large, as well as related to armed conflicts, such as the conflict between Russia and Ukraine and the conflicts in Israel and the Middle Eastern region, that exist, or in the future could exist, in various jurisdictions around the world,
+
+• the imposition of or changes to tariffs, including the tariffs announced by the United States in 2025 with respect to numerous global trading partners and sectors, and any retaliatory tariffs or measures by any such trading partners, including countermeasures by China, have impacted and could further negatively impact trade between, or increase the cost of operating in, or increase the cost of or negatively impact the demand for, our products or our customers’ products in the countries in which we or our customers do business,
+
+• the laws and policies of the United States and other countries affecting trade and foreign investment, including prohibitions on certain trade and other activities in China, Russia, Belarus, and portions of Ukraine, and the entry into, withdrawal from, or renegotiation of trade agreements by the United States (or other jurisdictions) potentially affecting Mexico, China, Japan, Singapore, Korea, Taiwan, Canada, and other countries in which we do business,
+
+• other restrictive or punitive governmental actions (such as restrictions on transfer of funds, restrictions on individuals’ movement, travel restrictions, quarantines, lockdowns, and curfews, trade protection measures, including export duties, quotas, customs duties, border taxes, border closures, increased import or export controls, import and export licenses, and restrictions on the purchase of products made or containing technology or components from certain companies or from companies located in certain jurisdictions), or actions by non-governmental individuals and groups (such as protests, boycotts, insurgencies, organized crime, and general civil unrest), that could negatively impact trade between, or increase the cost of operating in, the countries in which we do business,
+
+• labor market conditions and laws,
+
+• disruptions of capital and trading markets,
+
+• difficulty in collecting, or failure to collect, accounts receivable, as well as longer collection periods,
+
+• changes in, or non-compliance with, legal or regulatory import/export requirements, including restrictions on selling to certain customers or into certain jurisdictions,
+
+• natural disasters and severe weather events, including earthquakes, wildfires, droughts, hurricanes, tsunamis, floods, rising sea levels, as well as other impacts of climate change,
+
+• acts of terrorism, widespread illness, the effects of global health crises on business conditions in our industry or in the jurisdictions in which we do business, or other deterioration of public health conditions, and war,
+
+• misappropriation or other unauthorized transfers of our information and breaches of our information systems, as well as the potential lack of adequate remedies or enforcement mechanisms in certain jurisdictions,
+
+• difficulty in engaging distribution partners or obtaining sales or other business support in certain jurisdictions,
+
+• cultural differences in the conduct of business,
+
+• direct or indirect government actions, subsidies, or policies aimed at supporting local industry or markets,
+
+• changes in current or future tax law or regulations or new interpretations thereof, by federal or state agencies or foreign governments,
+
+• changes in the effective tax rate as a result of our overall profitability and mix of earnings in countries with differing statutory tax rates,
+
+• results of audits and examination of previously filed tax returns, and
+
+• limitations on our ability under local laws to protect or enforce our intellectual property rights.
+
+Additionally, we are subject to risks in certain global markets in which wireless operators provide subsidies on handset sales to their customers. Increases in cellular handset prices that negatively impact handset sales can result from changes in regulatory policies or other factors, which could impact the demand for our products.
+
+Some of the countries in which we operate and seek to expand are in emerging markets where legal systems may be less developed or familiar to us, potentially impacting our ability to obtain appropriate recourse in the event of a dispute. Other jurisdictions in which we conduct business have established, or may establish, legal and regulatory regimes that differ materially from United States laws and regulations. It is costly, time-consuming, and requires significant resources to comply with the numerous, and sometimes conflicting, legal regimes in the jurisdictions in which we conduct business on matters as diverse as anti-corruption, anti-bribery, import/export controls, content requirements, trade restrictions, tariffs, taxation, sanctions, immigration, intellectual property, sustainability, internal and disclosure control obligations, securities regulation, competition, data privacy and protection, employment, and labor relations. Violations of one or more of these legal regimes’ laws and regulations in the conduct of our business could result in significant fines, penalties, or monetary damages, criminal
+
+17
+
+Table of Contents
+
+sanctions against us or our officers, prohibitions on doing business, unfavorable publicity and other reputational damage, restrictions on our ability to process information, and allegations by our counterparties that we have not performed our contractual obligations.
+
+Changes in tax laws and regulations could have an adverse impact on our operating results.
+
+We are subject to taxation in many different countries and localities worldwide. To the extent the tax laws and regulations in these various countries and localities change, our tax liability could increase.
+
+Beginning in fiscal 2023, for U.S. income tax purposes, we were required to capitalize and amortize our research and development expenses over five or fifteen years, rather than deduct them in the year incurred. In July 2025, the U.S. government enacted the One Big Beautiful Bill Act (“OBBBA”), which restores immediate expensing for domestic research and development expenses starting in the tax years beginning after December 31, 2024. The Company is subject to a corporate alternative minimum tax (“CAMT”) of 15% on adjusted financial statement income, as well as an excise tax on corporate stock repurchases under the Inflation Reduction Act (“IRA”). The IRA could have a material impact depending on various factors, including the amount and frequency of our stock repurchases and the applicability of the CAMT to the Company. In addition, we may utilize the optional election to capitalize and amortize the domestic research and development expenses for tax purposes, where applicable, and which we expect will continue to increase, our taxes payable, resulting in reduced near-term cash flows. The OBBBA contains numerous other provisions, including the permanent extension or restoration of certain expiring corporate income tax provisions, originally introduced by the Tax Cuts and Jobs Act of 2017, and incremental modifications to the international tax framework. Certain provisions became effective and were reflected in the Company’s fiscal 2025 financial results, while others will become effective in future periods. Skyworks continues to evaluate the provisions of the OBBBA and its potential impact to the Company.
+
+Because the changes in U.S. tax law require a number of complex calculations that previously were not required, our actual tax liability may differ materially from our income tax provisions, estimates, and accruals. Changes in legal interpretations, as well as additional guidance issued under these laws, could increase income tax liabilities and/or reduce certain tax benefits.
+
+Future changes in tax laws, regulations, and treaties, or the interpretation thereof, in addition to initiatives related to the Base Erosion and Profit Shifting (“BEPS”) Project of the Organisation for Economic Co-Operation and Development (“OECD”), including Pillar One and Pillar Two; the European Commission’s “state aid” investigations; enactment of a global corporate minimum tax; and other developments could have an adverse effect on the taxation of our business, including reducing the availability of tax credits and payment of higher income taxes. Furthermore, countries where we are subject to taxes, including the United States, are evaluating their tax policies and rules on a regular basis, and we may see significant changes in legislation and regulations concerning taxation.
+
+Our manufacturing facilities in Mexico authorized to operate as maquiladoras are subject to various restrictions and requirements, including compliance with the terms of the maquiladora program and other local regulations. Failure to comply with these regulations, ceasing to qualify for maquiladora status or other disruptions within the program would cause our manufacturing costs in Mexico to increase and could adversely affect our business, results of operations, financial condition, and cash flows.
+
+We are unable to predict what tax changes may be enacted in the future or what effect such changes would have on our business, but such changes could affect our effective tax rates in countries where we have operations and could have an adverse effect on our overall tax position in the future, along with increasing the complexity, burden, and cost of tax compliance.
+
+The Company operates under a tax holiday in Singapore and is subject to the Company’s compliance with certain conditions, including maintaining certain employment and investment thresholds in Singapore. If we cannot, or elect not to, comply with the conditions for the tax holiday, we could be required to refund certain previously realized tax benefits for fiscal years 2021 through 2025, over which period we enjoyed a tax holiday that decreased our taxes by a cumulative $336.4 million, and we may lose the benefits of the tax holiday earlier than scheduled. For a discussion of the impact the tax holiday has on Singapore taxes owed by us, see Note 8 to Item 8 of this Annual Report on Form 10-K.
+
+We, our customers and our suppliers are subject to the risks of doing business in China.
+
+Demand from customers in China may be adversely affected by China’s evolving laws and regulations, including those relating to taxation, import and export tariffs and restrictions, currency controls, environmental regulations, privacy and information security, indigenous innovation, and intellectual property rights and enforcement of those rights. Enforcement of existing laws or agreements may be inconsistent, and the potential issuance of new laws and regulations creates uncertainty. In addition, changes in the political environment, economic environment, governmental policies, United States-China relations, or China-Taiwan relations could result in revisions to laws or regulations or their interpretation and enforcement, exposure of our intellectual property, increased taxation, restrictions on imports, import duties, or currency revaluations, any of which could have an adverse effect on our business plans and operating results. In particular, the imposition by the United States of new tariffs, including the tariffs announced in 2025, on goods imported from China, or deemed to be of Chinese origin, and other
+
+18
+
+Table of Contents
+
+government actions that restrict our ability to sell our products to Chinese customers or to manufacture or source components in China, and countermeasures imposed by China in response, including the countermeasures announced in 2025, has impacted and could continue directly or indirectly adversely impacting our manufacturing costs, the availability and cost of materials, including gallium, germanium, antimony, tungsten, molybdenum, scandium, and other rare earth metals/critical minerals, and the sales of our products in China, the United States and elsewhere. Such actions, including any threatened or actual tariffs and retaliatory measures, could also increase the prices of or negatively impact the demand for our customers’ products, which could negatively impact the sales of our products to those customers. In addition, the U.S. government has expanded export restrictions, and might continue expanding export restrictions, including by adding additional Chinese entities to the U.S. Bureau of Industry and Security’s Entity List (“Entity List”) or other entity lists, which has limited, and could in the future further limit, our ability to sell to certain of those entities and to third parties that do business with those entities. These restrictions have negatively impacted, and may continue to negatively impact, sales of our products. In the future, we may be prevented from shipping, or be required to obtain a license to ship, our products to certain customers if they are added to the Entity List. In addition, geopolitical changes in China-Taiwan relations could disrupt the operations of several companies in Taiwan that are suppliers to, or third-party partners of, the Company, our customers, and our customers’ other suppliers. Disruption of certain critical operations in, or of shipping to or from, Taiwan would adversely affect our ability to manufacture certain products and would likely have substantial negative effects on the entire semiconductor industry. Finally, China’s investments in technology development and manufacturing capability in support of its stated policy of reducing its dependence on foreign semiconductor manufacturers and other technology companies has likely already resulted, and we expect will continue to result, in reduced demand for our products in China and other key markets as well as reduced supply of critical materials for our products.
+
+Risks Associated with the Development, Manufacturing, and Sale of Our Products
+
+Our operating results may be adversely affected by quarterly and annual fluctuations.
+
+Our revenues, earnings, and other operating results may fluctuate significantly on a quarterly and annual basis. These fluctuations are typically the result of a number of factors, many of which are beyond our control.
+
+These factors include, among others:
+
+• the level of widespread deployment or adoption of commercial 5G networks, AI and other new technologies,
+
+• changes in end-user demand for the products manufactured and sold by our customers, including longer replacement cycles for smartphones,
+
+• the effects of competitive pricing pressures, including decreases in average selling prices of our products,
+
+• the volume and mix of phones sold by our largest customer,
+
+• production capacity levels and fluctuations in manufacturing yields,
+
+• availability and cost of materials and services from our suppliers,
+
+• the gain or loss of significant customers, or sockets with any such customers,
+
+• our ability to develop, introduce, and market new products and technologies on a timely basis,
+
+• market acceptance of our products and our customers’ products including market acceptance of, or our customers’ ability to incorporate, new, emerging technologies, such as AI,
+
+• new product and technology introductions by competitors,
+
+• delays in the adoption of standards by standard-setting bodies and delays in the commercial deployment or consumer adoption of certain technologies,
+
+• actions by government regulators to restrict or delay the availability of sufficient spectrum for wireless technologies, including technologies that utilize unlicensed spectrum and/or shared spectrum,
+
+• changes in consumers’ purchasing behaviors, including the rates at which they replace smartphones and other devices that utilize our products,
+
+• changes to promotions, rebates, and discounts offered by carriers in certain geographic regions for smartphones and other devices that utilize our products,
+
+• increasing industry consolidation among our competitors,
+
+• changes in the mix of products produced and sold, and
+
+• intellectual property disputes, including those concerning payments associated with the licensing and/or sale of intellectual property, and related remedies (e.g., monetary damages, injunctions, or exclusion orders affecting our or our customers’ products).
+
+We employ certain methods, assumptions, estimates, and other subjective judgments in order to apply our accounting policies and to project future performance, and such projections may be publicly disclosed from time to time. Changes to such methods, assumptions, estimates, and judgments, combined with other factors that are difficult to forecast, including the factors listed above, could materially and adversely affect our quarterly or annual operating results and could produce actual operating results that differ significantly from previous estimates and projections. If our operating results fail to meet the expectations of analysts or investors, it could materially and adversely affect the price of our common stock.
+
+19
+
+Table of Contents
+
+We rely on a small number of customers for a large portion of our sales.
+
+Significant portions of our sales are concentrated among a limited number of customers. If we lost one or more of these major customers, if one or more major customers significantly decreased its orders for our products, or if one or more major customers delay or do not make payments in a timely manner, our business, results of operations, and financial condition could be materially and adversely impacted, which could adversely affect our stock price. In each of fiscal 2025, fiscal 2024, and fiscal 2023, one customer accounted for greater than ten percent of our net revenue. As of October 3, 2025, three customers represented 82 % of our aggregate gross accounts receivable. For further discussion on customer concentration, see Note 14 to Item 8 of this Annual Report on Form 10-K.
+
+We rely on Original Equipment Manufacturers (“OEMs”) and Original Design Manufacturers (“ODMs”) to design our products into their end products.
+
+Our products are not sold directly to the end user but are components or subsystems of other products. As a result, we rely on OEMs and ODMs of electronics products to select our products from among alternative offerings to be designed into their equipment. Without these “design wins,” we would have difficulty selling our products. If a manufacturer designs another supplier’s product into one of its product platforms, it is more difficult for us to achieve future design wins with that platform because changing suppliers involves significant cost, time, effort, and risk on the part of that manufacturer. Also, achieving a design win with a customer does not ensure that we will receive revenue from that customer. Even after a design win, the customer is not obligated to purchase our products and can choose at any time to reduce or cease use of our products, for example, if its own products are not commercially successful, or for any other reason. In the past, we have not and do not achieve design wins on all the products, content and sockets that we compete for, and we have lost content and sockets at our customers as a result, including with our largest customer. Where we have achieved design wins in the past with customers, we have not continued to and may not continue to achieve design wins with customers in the future or may not convert such design wins into actual sales. Failure to achieve design wins or to convert design wins into sales could materially and adversely affect our operating results. Furthermore, as a result of our lengthy product development and sales cycle, we may incur significant research and development expenses, and selling, general, and administrative expenses, without generating the anticipated revenue associated with these products.
+
+Our manufacturing processes are extremely complex, specialized, and subject to disruption.
+
+Our manufacturing operations are complex and subject to disruption, including due to causes beyond our control. The fabrication of integrated circuits is an extremely complex and precise process consisting of hundreds of separate steps. It requires production in a highly controlled, clean environment. Minor impurities, contamination of the clean room environment in which our products are produced, errors in any step of the fabrication process, defects in the masks used to print circuits on a wafer, defects in equipment or materials, human error, or a number of other factors can cause a substantial percentage of our products to be rejected or to malfunction. Because our operating results are highly dependent upon our ability to produce integrated circuits at acceptable manufacturing yields, these factors could have a material and adverse effect on our business. Additionally, our operations may be affected by lengthy or recurring disruptions of operations at any of our production facilities, as well as disruptions at facilities operated by our subcontractors or customers. These disruptions may result from electrical power outages or fluctuations, water shortages, fire, earthquake, flooding, war, acts of terrorism, health advisories or risks, or other natural or man-made disasters, outages or disruptions to our information technology infrastructure, including those portions provided by third parties, as well as equipment or software maintenance, repairs, updates, and/or upgrades. Disruptions of our manufacturing operations, or those of our subcontractors and customers, could cause significant delays in shipments until we are able to shift production of the impacted products from an affected facility or subcontractor to another facility or subcontractor, or until the affected customer resumes operations and accepts shipments from us. In the event of such delays, the required alternative capacity, particularly wafer production capacity, may not be available on a timely basis or at all. Even if alternative production capacity is available, we may not be able to obtain it on favorable terms, which could result in higher costs and/or a loss of customers and revenue. Likewise, lower-than-expected demand, which has occurred from time to time, has led to, and could in the future lead to, underutilized manufacturing facilities, which could negatively impact our financial results. In addition, during periods of higher-than-expected demand, which has also occurred, we may have difficulty manufacturing a sufficient quantity of products, which could lead to our inability to meet customer needs and requirements as well as obligations under our agreements, which could negatively impact our financial results. Any such failure to meet customer demand could also result in the loss of future business opportunities, including lost design wins, which could also negatively impact our financial results.
+
+Our key facilities include, but are not limited to, our semiconductor wafer fabrication facilities in Newbury Park, California, and Woburn, Massachusetts; our SAW, TC-SAW, and BAW filter wafer processing facilities in Osaka, Japan; and our packaging, assembly and test facilities in Mexicali, Mexico, and in Singapore for filters (“Singapore Filter Manufacturing Facility”). Several of our key facilities are leased or subleased. If we are unable to renew existing leases or subleases on terms acceptable to us, we may be required to relocate our affected operations. We operate under a sublease for our Singapore Filter Manufacturing Facility that expires in July 2030. Because the owner of the site for our Singapore Filter Manufacturing Facility
+
+20
+
+Table of Contents
+
+has decided to redevelop it for other uses, we will need to relocate our Singapore Filter Manufacturing Facility by the end of the sublease, and we have been exploring alternative sites in other locations. Relocation will be complex and will require, among other things, the transfer of equipment and process nodes and qualification of new or transferred production lines. In addition, we announced in August 2025 that we took action aimed to optimize our U.S. factory footprint by planning for the closure of our wafer fabrication manufacturing operations in Woburn, Massachusetts and consolidating such manufacturing into Newbury Park, California. These activities or any other relocation, closure or consolidation of facilities or operations could result in disruptions to our business, including potential production interruptions or delays, quality problems, difficulties forecasting our production capabilities, challenges retaining employees or hiring new employees, and the incurrence of significant capital and other expenses, which could have a material adverse effect on our financial condition, results of operations or cash flow. In addition, we may not be able to optimize our factory footprint and achieve any financial and operational benefits from such efforts, including reducing our fixed cost base, improving utilization rates, increasing gross margins, and improving overall efficiency, which could have a material adverse effect on our financial condition, results of operations or cash flow.
+
+While we maintain insurance coverage to mitigate business continuity risks, among other risks, such coverage may be insufficient to cover all losses or all types of claims that may arise. Due to the highly specialized nature of our manufacturing processes, in the event of a disruption in production at one or more of our facilities for any reason, alternative production capacity would not be immediately available from third-party sources. These disruptions could have a material adverse effect on our business, results of operations, and financial condition.
+
+We may not be able to maintain and improve manufacturing yields.
+
+Minor deviations or disturbances in the manufacturing process can cause substantial manufacturing yield loss, and in some cases, cause production to be suspended and impact our ability to meet customer demand on a timely basis. Manufacturing yields for new products initially tend to be lower as we complete product development and commence volume manufacturing, and typically increase as we bring the product to full production. Our forward product pricing includes this assumption of improving manufacturing yields and, as a result, material variances between projected and actual manufacturing yields will have a direct effect on our gross margin and profitability. The difficulty of accurately forecasting manufacturing yields and maintaining cost competitiveness through improving manufacturing yields will continue to be magnified by the increasing process complexity of manufacturing semiconductor products. Our manufacturing operations may also face pressures arising from the compression of product life cycles, which may require us to manufacture new products faster and for shorter periods while maintaining acceptable manufacturing yields and quality without, in many cases, reaching the longer-term, high-volume manufacturing conducive to higher manufacturing yields and declining costs.
+
+We are dependent upon third parties for the manufacture, assembly, and testing of our products.
+
+We rely on foundries to provide silicon-based products and to supplement our gallium arsenide wafer manufacturing capacity. There are significant risks associated with reliance on third-party foundries, including:
+
+• the lack of wafer supply, potential wafer shortages, and higher wafer prices,
+
+• required minimum purchase commitments,
+
+• limited ability to respond to unanticipated changes in customer demand,
+
+• limited control over delivery schedules, manufacturing yields, production costs, process technologies, and quality assurance, and
+
+• the inaccessibility of, or delays in obtaining access to, key process technologies, materials, and IP blocks.
+
+Even in cases where we have long-term supply arrangements to obtain additional external manufacturing capacity, the third-party foundries we use for our standby manufacturing capacity may allocate their limited capacity to the production requirements of other customers and in general we have no contractual right to prevent them from making such allocations. If we choose to use a new foundry to replace either existing or backup capacity, it will typically take an extended period of time for us to complete our qualification process for that foundry, which will result in a significant passage of time before we can begin shipping products from that new foundry.
+
+Further, the third-party foundries may experience financial difficulties or changes in control, be unable to deliver products to us in a timely manner, be unwilling to invest in processes that meet our needs, or suffer damage or destruction to their facilities, particularly since some of them are located in areas prone to natural disasters or to severe weather events and other impacts of climate change. If any disruption of manufacturing capacity occurs, we may not have alternative manufacturing sources immediately available. We may therefore experience difficulties, delays, or additional costs in securing an adequate supply of our products, which could impair our ability to meet our customers’ needs and have a material adverse effect on our operating results.
+
+Although we own and operate assembly and test facilities, as part of our supply resilience and business continuity strategies, we still depend on subcontractors to package, assemble, and test certain of our products at cost-competitive rates. For those assembly and test subcontractors with whom we do not have long-term agreements, we typically procure services on a per-
+
+21
+
+Table of Contents
+
+order basis. If any of our subcontractors experiences capacity constraints or financial difficulties, suffers any damage to its facilities, experiences outages or any other disruption of assembly or testing capacity or is otherwise unable or unwilling to provide us sufficient capacity to meet our demand, we may not be able to obtain alternative assembly and testing services in a timely manner and/or at cost-competitive rates. Due to the amount of time that it usually takes to qualify assembly and test subcontractors, we could experience significant delays and/or increased costs in product shipments if we are required to find alternative assembly and test subcontractors for our components. These supply challenges have impacted, and may continue to impact, our ability to satisfy increases in demand for our products. Any problems that we may encounter with the delivery, quality, or cost of our products could damage our customer relationships and our ability to establish new customer relationships and materially and adversely affect our business, results of operations, and financial condition.
+
+During fiscal 2022, we entered into long-term capacity reservation and supply agreements with certain third-party foundries, under which we agreed to certain minimum purchase commitments. As a result of reduced overall market demand, we recorded impairment charges during fiscal 2023 and renegotiated certain of these agreements in fiscal 2024. These long-term capacity reservation agreements may have an additional adverse effect on our operating results in the event our future supply needs are reduced below the minimum purchase expectations as a result of further reduction in overall market demand.
+
+We are dependent upon third parties for the supply of raw materials and components.
+
+Our manufacturing operations depend on obtaining adequate supplies of raw materials and components used in our manufacturing processes at a competitive cost. Although we maintain relationships with suppliers located around the world with the objective of ensuring that we have adequate sources for the supply of raw materials and components for our manufacturing needs, increases in demand from the semiconductor industry for such raw materials and components (including, but not limited to, gallium, germanium, and other critical minerals and rare earth metals), as well as increased demand for commodities in general, can result in tighter supplies and higher costs. Our suppliers may not be able to meet our delivery schedules; we may lose a significant or sole supplier; a supplier may not be able to meet performance and quality specifications; shipments of precious metals may be subject to theft; and we may not be able to purchase such supplies or materials at a competitive cost. If a supplier were unable to meet our delivery schedules, if we lost a supplier, or if a supplier were unable to meet performance or quality specifications, our ability to satisfy customer obligations would be materially and adversely affected because the time required to identify and qualify an alternative supply source, where available, is typically lengthy.
+
+In addition, we review our relationships with suppliers of raw materials and components for our manufacturing needs on an ongoing basis. In connection with our ongoing review, we may modify or terminate our relationship with one or more suppliers. We may also enter into sole supplier arrangements to meet certain of our raw material or component needs. While we do not typically rely on a single source of supply for our raw materials, we are currently dependent on a limited number of sole-source suppliers and in the future could become dependent on additional sole-source suppliers. If we were to lose these sole sources of supply, for any reason, a material adverse effect on our business could result until an alternate source is obtained. To the extent we enter into additional sole supplier arrangements for any of our raw materials or components, the risks associated with our supply arrangements would be exacerbated. Furthermore, our entry into capacity commitments in an attempt to ensure sufficient supply of raw materials and components may result in our obligation to pay above-market prices in the event of a future downward price correction.
+
+We may not be able to effectively operate our business if we are unable to attract and retain qualified personnel.
+
+As the source of our technological and product innovations, our key engineering and technical personnel represent a significant asset. Our success depends on our ability to continue to attract, retain, and motivate qualified personnel, including executive officers and other key management, sales, engineering, and technical personnel. The competition for management, sales, engineering, and technical personnel is intense in the semiconductor industry, particularly in the locations in which we operate, and therefore we may not be able to continue to attract and retain the qualified personnel necessary for the design, development, manufacture, and sale of our products. Our employees are in high demand, and our competitors and other companies may offer compensation or other opportunities in excess of what we offer. We may have particular difficulty attracting and retaining key personnel during periods of poor operating performance and/or declines in the price of our common stock, given, among other factors, the use of equity-based compensation by us and our competitors. Additionally, if we are unable to obtain required stockholder approval for future increases in the number of shares available under our long-term incentive plans, we may be limited in granting equity-based incentive awards, which may impair our efforts to attract and retain necessary personnel. Further, existing immigration laws, as well as difficulties and increased costs in obtaining visas, together with any changes to immigration policies or regulations in the United States, such as the increased cost for H-1B worker visas announced in September 2025, make it more difficult for us to recruit and retain highly skilled foreign nationals (in the United States or abroad), limiting the pool of available talent. The increased ability of employees in our industry to work from home or in other remote work arrangements has impacted, and may continue to impact, the mobility and turnover of our employees, potentially making it more difficult for us to compete in the job market. We continue to anticipate increases in human resource needs,
+
+22
+
+Table of Contents
+
+particularly in engineering. The loss of the services of one or more of our key employees or our inability to attract, retain, and motivate qualified personnel could have a material adverse effect on our ability to operate our business.
+
+Our business could be adversely affected by the departure of existing members of our senior management team or if our senior management team is unable to effectively implement our strategy.
+
+Our success depends, in large part, on the continued contributions of our senior management team, none of whom is bound by a written employment contract to remain with us for a specified period. The loss of any member of our senior management team could harm our ability to implement our business strategy and respond to the rapidly changing market conditions in which we operate. In addition, the loss of certain members of our senior management team could harm our relationships with key customers and negatively impact our future revenue, results of operations, and financial condition.
+
+If our senior management transitions are not successful, our business and future growth prospects could be harmed.
+
+In fiscal 2025, we implemented several senior management changes. On February 17, 2025, Philip Brace began to serve as our Chief Executive Officer. On June 2, 2025, Todd Lepinski began to serve as our Senior Vice President, Sales and Marketing. On September 8, 2025, Philip Carter began to serve as our Chief Financial Officer. Any significant leadership change involves inherent risks, including potential disruptions to our operations or relationships with customers, suppliers, and key employees, and can be inherently difficult to implement. If our recent senior management transitions are not successful for any reason, our business could be adversely impacted.
+
+We are subject to uncertainties involving the ordering and shipment of, and payment for, our products.
+
+Our sales are typically made pursuant to standard purchase orders and/or specified customer contracts, or both, for delivery of products and not under long-term supply arrangements with our customers. Our customers may seek to cancel or defer orders before shipment. Additionally, we sell a portion of our products through third-party distributors, some of whom have rights to return products if the product is non-conforming. We may purchase and manufacture inventory based on estimates of customer demand for our products, which is difficult to predict and may not be accurate. The difficulties of forecasting may be compounded when we sell to OEMs indirectly through distributors or contract manufacturers, or both, as our forecasts of demand will then be based on estimates provided by multiple parties. In addition, our customers and distributors may change their inventory practices on short notice for any reason. Many of our products are customized to the needs or specifications of a specific customer or have a limited number of potential alternative buyers. The cancellation or deferral of product orders, the return of previously sold products, over-production due to a change in anticipated order volumes could result in us holding excess or obsolete inventory, which could result in inventory write-downs and, in turn, could have a material adverse effect on our financial condition. On the other hand, customers may require rapid increases in production on short notice, which could result in damaged customer relationships, increased manufacturing costs, increased liabilities, or harm to our reputation if we are unable to meet such increases in demand.
+
+In addition, if a customer or distributor encounters financial difficulties of its own because of a change in demand or for any other reason, the customer’s or distributor’s ability to make timely payments against our accounts receivable could be impaired. Furthermore, our dependence on a few third-party carriers and logistics firms could result in delays, increased costs, and expedite fees related to our product shipments.
+
+We face a risk that capital needed for our business will not be available when we need it.
+
+To the extent that our existing cash and cash equivalents and cash generated from operations are insufficient to fund our future activities (including capital expenditures), we may need to raise additional funds through public or private equity or debt financing. If unfavorable capital market conditions exist in the event we were to seek additional financing, we may not be able to raise sufficient capital on favorable terms and on a timely basis, if at all. Failure to obtain capital when required by our business circumstances would have a material adverse effect on us.
+
+In addition, the future growth of our business is likely to require improvement and/or expansion of our manufacturing facilities, upgrading of our manufacturing equipment, strategic investments, and/or corporate acquisitions. Due in part to our repayment obligations on our outstanding indebtedness, the capital required to fund these investments may not be available in the future.
+
+We are exposed to risks related to the use of AI tools by us and others.
+
+Although we are evaluating, and where we believe appropriate, incorporating AI tools into our operations, our use of AI tools may subject us to significant competitive, legal, regulatory and other risks, and there can be no assurance that our use of AI tools will enhance our business operations or result in a benefit to us. Our competitors may be more successful in their use of AI tools, including by developing superior products or improving their operations with the assistance of AI. Additionally, there could be adverse impacts from inaccurate or flawed algorithms, training, or data sets. Our use of AI tools could also result in the loss of confidential information or intellectual property or an inability to claim or enforce intellectual property rights, as well as subject us to risks related to intellectual property infringement or misappropriation, data privacy, cybersecurity, and the unauthorized use of Company information. The jurisdictions in which we conduct business have and may adopt laws and
+
+23
+
+Table of Contents
+
+regulations related to AI that could cause us to incur greater compliance costs, limit our use of AI tools, or subject us to legal liabilities.
+
+We may encounter problems upgrading, enhancing, and improving our enterprise applications.
+
+We have been and are engaging in activities to upgrade, enhance and improve various Company enterprise applications and information technology systems, including relating to demand management, enterprise management, quality, sales and marketing, and sourcing. These activities may not result in the benefits we expect and could cause disruptions to our operations, which could have a material adverse effect on our business.
+
+Risks Related to Acquisitions and Indebtedness
+
+To be successful, we may need to make additional investments and acquisitions, integrate companies we acquire, and/or enter into strategic alliances.
+
+Although we have invested in the past, and intend to continue to invest, significant resources in internal research and development activities, the complexity and rapidity of technological changes and the significant expense of internal research and development make it impractical for us to pursue development of all technological solutions on our own. On an ongoing basis, we review investment, alliance, and acquisition prospects that would complement or expand our product offerings, augment our market coverage, or enhance our technological capabilities. We may not be able to identify and consummate suitable investment, alliance, or acquisition transactions in the future. Moreover, if such transactions are consummated, they could result in:
+
+• issuances of equity securities dilutive to our stockholders,
+
+• restructuring or other impairment write-offs,
+
+• the incurrence of substantial debt and assumption of unknown liabilities,
+
+• the potential loss of key employees from the acquired company,
+
+• recognition of additional liabilities known or unknown at the time of acquisition,
+
+• amortization expenses related to intangible assets, and
+
+• the diversion of management’s attention from other business concerns.
+
+Moreover, integrating acquired organizations and their products and services may be difficult, expensive, time-consuming, and a strain on our resources and our relationships with employees and customers and ultimately may not be successful. Additionally, in periods following an acquisition, we will be required to evaluate goodwill and acquisition-related intangible assets for impairment. If such assets are found to be impaired, they will be written down to estimated fair value, with a charge against earnings.
+
+Our outstanding indebtedness could reduce our flexibility to operate our business.
+
+In May 2021, the Company issued in a public offering $500 million of 1.80% Senior Notes due 2026 and $500 million of 3.00% Senior Notes due 2031 (collectively, the “Notes”), which Notes remain outstanding. For further discussion, see Note 16 to Item 8 of this Annual Report on Form 10-K.
+
+Additionally, on May 21, 2021, the Company entered into a revolving credit agreement with various financial institutions, as lenders, and JPMorgan Chase Bank, N.A., as administrative agent, providing for a $750 million revolving credit facility (the “Revolving Credit Facility”).
+
+In addition, we expect to incur a substantial amount of additional indebtedness in connection with the Mergers and have entered into the Bridge Commitment Letter for the purpose of financing a portion of the cash consideration to be paid in the Mergers, paying related fees and expenses in connection with the Mergers and the other transactions contemplated by the Merger Agreement and, in certain circumstances, if required, to refinance certain of Qorvo’s outstanding senior notes. For risks related to such indebtedness, see the risks set forth in “ The Mergers will require us to incur substantial additional indebtedness, which could reduce our flexibility to operate our business and negatively affect our financial condition, and increase the risks associated with our level of indebtedness. ”
+
+Existing indebtedness under our Revolving Credit Facility or the Notes could have the effect, among other things, of reducing our flexibility to respond to changing business and economic conditions. We also have incurred, and will continue to incur, various costs and expenses associated with our indebtedness. Our ability to arrange additional financing and make payments of principal and interest on our indebtedness when due depends upon our future performance, which will be subject to general economic conditions, industry cycles, and financial, business, and other factors affecting our operations, many of which are beyond our control. We are exposed to interest rate risk through our Revolving Credit Facility, which is subject to variable interest rates, and interest rate increases have led to increased interest payments. Our existing indebtedness or incurrence of any additional indebtedness, including the indebtedness contemplated in connection with the Mergers, could reduce funds available for working capital, capital expenditures, acquisitions, and other general corporate purposes and may create competitive
+
+24
+
+Table of Contents
+
+disadvantages relative to other companies with lower debt levels. If we were to refinance the Notes, we may not be able to do so on favorable terms or rates.
+
+In addition, our credit ratings, combined with fluctuating interest rates, affect the cost and availability of future borrowings and, accordingly, our cost of capital. Our ratings reflect each rating organization’s opinion of our financial strength, operating performance, and ability to meet our debt obligations. There can be no assurance that we will achieve a particular rating or maintain a particular rating in the future. An inability to obtain or maintain a rating could increase the cost of future borrowings or refinancings of our indebtedness, limit our access to sources of financing in the future, or lead to other potentially adverse consequences.
+
+The agreements that govern the Notes and the Revolving Credit Facility contain various affirmative and negative covenants that, subject to certain significant exceptions, restrict our ability to, among other things, have liens on our property, change the nature of our business, and/or merge or consolidate with any other person or sell or convey certain assets to any one person. In addition, some of the agreements contain a financial covenant consisting of a limitation on leverage. Our ability to comply with these provisions may be affected by events beyond our control. Failure to comply with these covenants could result in an event of default, which, if not cured or waived, could accelerate our repayment obligations. Any such acceleration of our repayment obligations could have a material adverse effect on our business, financial condition, results of operations, cash flows, and stock price.
+
+Risks Associated with Our Industry
+
+The semiconductor industry is highly cyclical and subject to significant downturns.
+
+We operate in the semiconductor industry, which is cyclical and subject to rapid declines in demand for end-user products in both the consumer and enterprise markets. Uncertain worldwide economic and political conditions, together with other factors such as the volatility of the financial markets, continue to make it difficult for our customers and for us to accurately forecast and plan future business activities. Uncertainty and economic weakness could result in a market contraction and, as a result, our business, results of operations, and financial condition would likely be materially and adversely affected. Such periods of industry downturn are characterized by diminished product demand and revenue, manufacturing overcapacity, excess inventory levels, accelerated erosion of average selling prices, bad debt, inventory charges, restructuring charges, and asset impairment charges. Furthermore, downturns in the semiconductor industry may be prolonged, and any extended delay or failure of the market to recover from an economic downturn would materially and adversely impact our business, results of operations, and financial condition, which could adversely affect our stock price.
+
+The wireless communications, analog and mixed-signal semiconductor markets are characterized by significant competition.
+
+The wireless communications semiconductor industry, in general, and the other analog and mixed-signal markets in which we compete are very competitive, which may cause pricing pressures, decreased gross margins, and rapid loss of market share. We compete with international and United States semiconductor manufacturers of all sizes in terms of resources and market share, including, but not limited to, Analog Devices, Broadcom, Cirrus Logic, Murata Manufacturing, NXP Semiconductors, Qorvo, Qualcomm, and Texas Instruments.
+
+We currently face significant competition in our markets and expect that intense price and product competition will continue. From time to time, we have lost market share as a result of competition, and we could lose market share in the future. Also, this competition has resulted in, and is expected to continue to result in, declining average selling prices for many of our products and increased challenges in maintaining or increasing revenue, gross margin, and market share. Furthermore, additional competitors may enter our markets as a result of growth opportunities in electronics, the trend toward global expansion by foreign and domestic competitors, and technological and public policy changes (including national or regional policies, and/or state-sponsored investments, intended to develop and support localized competitors). We believe that the principal competitive factors for semiconductor suppliers in our markets include, among others:
+
+• rapid time-to-market and product ramps (including, but not limited to, high-volume product ramps),
+
+• timely new product innovation,
+
+• ability to capture design wins in new growth markets, such as 5G,
+
+• product quality, reliability, and performance,
+
+• ability of certain products, including “high reliability” solutions, to perform under stringent operating conditions,
+
+• product cost and selling price,
+
+• features available in products,
+
+• alignment with customer performance specifications,
+
+• compliance with industry standards,
+
+• strategic relationships with customers,
+
+• access to, and the protection and enforcement of, intellectual property,
+
+25
+
+Table of Contents
+
+• ability to partner with or participate in reference designs of baseband vendors,
+
+• maintaining access to manufacturing capacity, raw materials, supplies, and services at a competitive cost, and
+
+• the ability to secure government incentives, credits and grants.
+
+We might not be able to successfully address these factors. Many of our competitors benefit from:
+
+• long presence in key markets,
+
+• brand recognition,
+
+• high levels of customer satisfaction,
+
+• vertical integration,
+
+• strong baseband partnership/participation in reference designs,
+
+• a broad product portfolio allowing them to bundle product offerings,
+
+• ownership or control of key technology or intellectual property, and
+
+• strong financial, sales and marketing, manufacturing, distribution, technical, or other resources.
+
+As a result, certain competitors may be able to adapt more quickly than we can to new or emerging technologies, such as AI, and changes in customer requirements or may be able to devote greater resources to the development, promotion, and sale of their products than we can. As a result of industry consolidation, certain competitors may be able to further exploit such benefits to strengthen their competitive position.
+
+Our reference design partners have leveraged and may continue to leverage their market position by bundling product offerings or integrating additional functionality into their product offerings that compete with our solutions. Such product offerings have been competitive with and may continue to be competitive with our solution as to performance, price, and quality, which has and could continue to negatively impact our business and financial performance, and if the interoperability of our solution with the partner’s products were to be restricted, our business could be further adversely impacted.
+
+Current and potential competitors have established, or may in the future establish, financial, contractual, or strategic relationships among themselves or with customers, resellers, or other third parties. These relationships have affected and may continue to affect customers’ purchasing decisions, which has led to and could lead to customers choosing to purchase competitor products instead of our products. In addition, it is possible that new competitors or alliances among competitors could emerge, causing such competitors to rapidly acquire significant market share. We may not be able to compete successfully against current and potential competitors. Increased competition could result in pricing pressures, decreased gross margins, and loss of revenue and market share and may materially and adversely affect our business, results of operations, and financial condition.
+
+Remaining competitive in the semiconductor industry depends upon our ability to constantly innovate.
+
+The semiconductor industry generally and, in particular, many of the markets into which we sell our products, are highly cyclical and characterized by constant and rapid technological change, continuous product evolution, price erosion, evolving technical standards, short product life cycles (including annual product refreshes in some cases), increasing demand for higher levels of integration, increased miniaturization, reduced power consumption, and wide fluctuations in product supply and demand. Our operating results depend largely on our ability to continue to cost-effectively introduce new and enhanced products on a timely basis, both within our traditional markets and in new, expanded, or adjacent markets. The successful development and commercialization of semiconductor devices and modules is highly complex and depends on numerous factors, including the ability:
+
+• to anticipate customer and market requirements and changes in technology and industry standards,
+
+• to obtain sufficient manufacturing capacity within an international supply chain to meet customer demand,
+
+• to define new products that meet customer and market requirements,
+
+• to complete development of new products and bring products to market on a timely basis,
+
+• to differentiate our products from offerings of our competitors,
+
+• to achieve overall market acceptance of our products,
+
+• to lengthen the time that a particular product is in demand,
+
+• to source and maintain manufacturing materials,
+
+• to identify and maintain suppliers with the necessary technology and scale to support the increasing complexity of our manufacturing requirements, and
+
+• to obtain adequate multi-jurisdictional intellectual property protection for our new products.
+
+Our ability to manufacture current products, and to develop new products, depends on, among other factors, the viability and flexibility of our own internal information technology systems.
+
+We continually evaluate expenditures for planned product development and choose among alternatives based on our understanding of customer technical requirements, new industry standards, and expectations of future market growth and technologies. We may not be able to develop and introduce new or enhanced wireless communications, analog and mixed-
+
+26
+
+Table of Contents
+
+signal semiconductor products in a timely and cost-effective manner, and our products may not satisfy customer requirements or achieve market acceptance, or we may not be able to anticipate new industry standards and technological changes. We also may not be able to respond successfully to new product announcements and introductions by competitors or to changes in the design or specifications of complementary products of third parties with which our products interface. If we fail to rapidly and cost-effectively introduce new and enhanced products in sufficient quantities that meet our customers’ requirements, our business, results of operations, and financial condition could be materially and adversely affected.
+
+In addition, prices of many of our products decline, sometimes significantly, over time. Our products may become obsolete earlier than planned or may not have life cycles long enough to allow us to recoup the cost of our investment in designing such products. Accordingly, we believe that to remain competitive, we must continue to reduce the cost of producing and delivering existing products at the same time that we develop and introduce new or enhanced products. We may not be able to continue to reduce the cost of producing and delivering our products in a timely manner and thereby remain competitive.
+
+In order to remain competitive, we expect to continue to transition many of our products to increasingly smaller geometries and form factors. This transition often requires us to upgrade our capital equipment, modify the manufacturing processes for our products, design new products to more stringent standards, and redesign some existing products. We have experienced some difficulties migrating to smaller geometry process technologies or new manufacturing processes, which resulted in sub-optimal manufacturing yields, delays in product deliveries, and increased expenses. We may face similar difficulties, delays, and expenses as we continue to transition our products to smaller geometry processes in the future. In some instances, we depend on our relationships with our third-party foundries and packaging subcontractors to transition to smaller geometry processes successfully. Our manufacturing partners may not be able to effectively manage the transition, or we may not be able to maintain our relationships with certain manufacturing partners. If our manufacturing partners or we experience significant delays in this transition or fail to efficiently implement this transition, our business, results of operations, and financial condition could be materially and adversely affected. As smaller geometry processes become more prevalent, we expect to continue to integrate greater levels of functionality, as well as customer and third-party intellectual property, into our products. However, we may not be able to achieve higher levels of design integration or deliver new integrated products on a timely basis, or at all.
+
+Increasingly stringent environmental laws, rules, regulations, and customer expectations may require us to redesign our existing products and processes, which could adversely affect our ability to cost-effectively produce our products.
+
+The semiconductor industry has been subject to increasing environmental regulations, particularly those environmental requirements that control and restrict the use, transportation, emission, discharge, storage, and disposal of certain chemicals, elements, and materials used or produced in the semiconductor manufacturing process. Public focus on climate change, sustainability, and environmental issues has also led to increased government regulation and caused certain of our customers to impose environmental standards on us as a part of doing business with them. If a focus on environmental issues persists in the future, it could result in higher costs of operations. In addition, our commitment to environmentally sustainable practices, while undertaken in a manner designed to be as efficient and cost effective as possible, may result in increases in costs of operations for us relative to our competitors until technologies and methods are developed that will help reduce those costs or such practices become industry best practice.
+
+An increasing number of customers, as well as a number of domestic and foreign jurisdictions, restrict or may seek to restrict the use of various substances, including a class of chemicals known as per- and polyfluoroalkyl substances, and a number of such substances have been or are currently used in our products or processes. For example, the European Union Restriction of Hazardous Substances in Electrical and Electronic Equipment (“RoHS”) Directive requires that certain substances, which may be found in certain products we have manufactured in the past, be removed from all electronics components. Eliminating such substances from our manufacturing processes requires the expenditure of additional research and development funds to seek alternative substances for our products, as well as increased testing by third parties to ensure the quality of our products and compliance with the RoHS Directive. While we have implemented a compliance program intended to ensure our product offering meets these regulations, there may be instances where alternative substances will not be available or commercially feasible, or may only be available from a single source, or may be significantly more expensive than their restricted counterparts. Additionally, if we were found to be non-compliant with any such rule or regulation, we could be subject to fines, penalties, and/or restrictions imposed by government agencies that could adversely affect our operating results.
+
+Regulations in the United States require that we determine whether certain materials used in our products, referred to as conflict minerals, originated in the Democratic Republic of the Congo or adjoining countries, or were from recycled or scrap sources. The verification and reporting requirements, in addition to any customer demands for conflict-free sourcing, impose additional costs on us and on our suppliers, and may limit the sources or increase the prices of materials used in our products. Further, if we are unable to certify that our products are conflict free, we may face challenges with our customers, which could place us at a competitive disadvantage, and our reputation may be harmed. In addition, our customers have requested and are expected to continue requesting reports on and commitments regarding our sourcing of other minerals or substances, which may impact our ongoing operations and increase our operating costs.
+
+27
+
+Table of Contents
+
+New climate change laws and regulations could require us to change our manufacturing processes or obtain substitute materials that may cost more or be less available for our manufacturing operations. Various jurisdictions in which we do business have implemented, or in the future could implement or amend, restrictions on emissions of carbon dioxide or other greenhouse gases, limitations or restrictions on water use, regulations on energy management and waste management, and other climate change-based rules and regulations, which may increase our expenses and adversely affect our operating results. We expect increased worldwide regulatory activity relating to climate change in the future.
+
+Furthermore, environmental regulations often require parties to fund remedial action for violations of such regulations regardless of fault. Consequently, it is often difficult to estimate the future impact of environmental matters, including potential liabilities. In addition, our customers increasingly require warranties or indemnity relating to compliance with environmental regulations. The amount of expense and capital expenditures that might be required to satisfy environmental liabilities, to complete remedial actions, and to continue to comply with applicable environmental laws may have a material adverse effect on our business, results of operations, and financial condition.
+
+In addition, increasing governmental, investor, customer, and societal attention on sustainability matters, including expanding mandatory and voluntary reporting, diligence, and disclosure on sustainability topics such as climate change, carbon emissions, water usage, waste management, human capital, forced labor, and related risk oversight, have expanded and could further expand the nature, scope, and complexity of matters that we are required to control, assess, and report. We expect that these and other rapidly changing laws, regulations, policies, interpretations, and expectations, as well as increased enforcement actions by various governmental and regulatory agencies, will continue to increase the cost of our compliance and internal risk management programs and to alter the environment in which we do business, which could have a material adverse effect on our business, results of operations, and financial condition. If our sustainability practices and disclosures do not meet the expectations and standards of our stockholders, customers, and other industry stakeholders, our reputation and business activities may be negatively impacted and our appeal to certain investors may be reduced.
+
+Risks Associated with Cybersecurity and Intellectual Property Protection
+
+We may not be able to prevent, or timely detect, information technology security breaches.
+
+Security breaches, phishing, spoofing, malware installations, attempts by others to gain unauthorized access to our information technology systems, networks, and databases, and other cyberattacks continue to become more sophisticated and persistent. We have been directly and indirectly subject to these attacks and expect to continue to be subject to these attacks. Further, these incidents, which might be related to industrial, state-sponsored, and/or economic espionage, or financial cyber extortion or fraud, include covertly introducing malware and spyware to our computers, networks, and products (or to an electronic system operated by a third party for our benefit) and impersonating authorized users, among others. We seek to prevent, detect, and investigate all security incidents and to prevent their recurrence, but in some cases, we might be unaware of an incident or its magnitude, duration, and effects. The theft, unauthorized use, transfer, or publication of our intellectual property, our confidential business, financial, and/or technical information, or the personal data of our employees and customers by third parties or by our employees could harm our competitive position, reduce the value of our investment in research and development and other strategic initiatives, or otherwise adversely affect our business and technology development. To the extent that any security breach or other cybersecurity incident results in inappropriate disclosure of data, including our customers’, suppliers’, licensees’, or employees’ confidential or personal information, we may incur liability, face contractual and regulatory fines and penalties, and sustain significant financial resources to remediate such breach. Such an incident could, among other things, damage our reputation, impair our ability to attract and retain our customers, impact our stock price, and materially damage our relationships with our business partners. If a ransom-style cyberattack or similar incident impedes our ability to use or access our information systems for an extended period of time, this could adversely affect our business operations and financial results. In addition, certain suppliers, including cloud-based and critical service providers, and other third parties with whom we conduct business, including foundries, assembly and test contractors, and distributors, have been, and are likely to continue to be, subject to cybersecurity incidents, misappropriation efforts, or network disruptions that could jeopardize our proprietary or sensitive data, impact such third parties’ ability to meet their obligations to us, or otherwise negatively impact our ongoing business operations. We expect to continue devoting significant resources to the security of our information technology systems, networks, and databases, including through the training of our employees and monitoring the security posture of critical third parties who have access to our systems or sensitive data. However, we cannot ensure that our cybersecurity program or these security measures and monitoring efforts will be sufficient to prevent or mitigate the damage caused by a cybersecurity incident or network disruption, and our systems may be vulnerable to hacking, insider threats, employee error or manipulation, theft, system malfunctions, or other adverse events. Further, China has implemented, and other countries or regions may implement, cybersecurity and privacy laws that require companies’ overall information disclosure, processing practices, and technology security environment to meet certain standards and/or be certified. Such laws may be complex, ambiguous, and subject to interpretation, which may create uncertainty regarding compliance. As a result, our efforts to comply with such laws, to the extent applicable, may be expensive and may fail, which could adversely affect our business, results of operations, and cash flows. In addition, certain of our products that we use contain firmware that incorporates or is
+
+28
+
+Table of Contents
+
+derived from “open source” software that generally is made publicly available by its developers or other third parties. Risks related to the use of open source software include, but are not limited to, the introduction of cybersecurity vulnerabilities into our products or development platforms, our noncompliance with applicable licensing terms, subjecting certain of our derivative works or software enhancements to public disclosure and/or unfavorable licensing conditions, potential restrictions on our ability to market the firmware associated with our products, and enhanced governmental or other third-party scrutiny of our products.
+
+In order to remain competitive, we must be able to successfully protect our intellectual property rights.
+
+We rely on patent, copyright, trademark, trade secret, and other intellectual property rights and laws, as well as nondisclosure and confidentiality agreements and other methods, to protect our confidential and proprietary technologies, inventions, information, data, devices, algorithms, processes, and other intellectual property. In addition, we often incorporate the intellectual property of our customers, suppliers, or other third parties into our designs, and we have certain obligations with respect to the non-usage and non-disclosure of such third-party intellectual property. From time to time, we have engaged in and it may be necessary to continue to engage in litigation, administrative actions or like activities to enforce our intellectual property rights, to protect our trade secrets, or to determine the validity, enforceability, and scope of proprietary rights of others, including our customers. This has required and will continue requiring us to expend significant resources and could divert the efforts and attention of our management and technical personnel from our business operations. Regardless of our actions:
+
+• the steps we take to prevent misappropriation, infringement, dilution, or other violation of our intellectual property or the intellectual property of our customers, suppliers, or other third parties may not be successful,
+
+• any of our existing or future patents, copyrights, trademarks, trade secrets, or other intellectual property rights may be challenged, invalidated, deemed unenforceable, or circumvented, and
+
+• we may be contractually prohibited, or otherwise discouraged, by certain customers from pursuing certain remedies for third parties’ violations of our intellectual property.
+
+A third party could potentially copy, misappropriate, or otherwise obtain and use our technology without authorization, develop similar technology independently, or design around or invalidate our patents. If any of our intellectual property protection mechanisms fails to protect our technology, it would make it easier for our competitors to offer similar competitive products, potentially resulting in loss of market share and price erosion. Even if we receive a patent, the patent claims may not be broad enough to adequately cover and protect our technology or could be rendered invalid or unenforceable. Furthermore, even if we receive patent protection in the United States, we may not seek, or may not be granted, patent protection in other relevant foreign countries. In addition, effective patent, copyright, trademark, and trade secret protection and enforcement may be unavailable, impractical, or limited for certain technologies and in certain foreign countries.
+
+We attempt to control access to, and distribution of, our proprietary and confidential information through operational, technological, and legal safeguards. Despite our efforts, parties, including current and former employees, consultants, customers, licensees, suppliers, vendors, and other third parties may attempt to copy, disclose, transfer, misappropriate or obtain access to our information without our authorization. Furthermore, attempts by computer hackers or other third parties to gain unauthorized access to our systems or information could result in our confidential and/or proprietary information being compromised or our manufacturing and other business operations being interrupted. While we make reasonable attempts to prevent such unauthorized access or misappropriation, we may be unable to anticipate, detect, or stop the methods used, or we may be unable to prevent the release of our confidential and/or proprietary information or that of a third party.
+
+We are subject to the risks of licensing third-party intellectual property.
+
+We sell products in markets that are characterized by rapid technological changes, evolving industry standards, frequent new product introductions, short product life cycles, and increasing levels of integration. Many of our products currently use or incorporate technology licensed or acquired from third parties, and we expect our products in the future to also require technology from third parties. Our ability to keep pace with this market depends on our ability to obtain technology from third parties on commercially reasonable terms to allow our products to remain competitive. If licenses to such technology for our current or future products become unavailable or the terms on which they are available become commercially unreasonable, and we cannot otherwise acquire or integrate such technology, our products or our customers’ products could become unmarketable or obsolete, we could lose market share, and our business could be adversely affected. In such instances, we could also incur substantial unanticipated costs or scheduling delays to develop or acquire substitute technology to deliver competitive products. These risks are heightened with respect to certain of our products that incorporate increasing amounts of embedded software and digital circuit content that is subject to third-party intellectual property rights.
+
+Risks Associated with Claims and Litigation
+
+We may be subject to risks of litigation and disputes.
+
+From time to time, we have been, and may become involved in litigation with customers, suppliers, competitors, government or regulatory agencies, shareholders, employees, former employees, contractors, former contractors, or other parties. We are the
+
+29
+
+Table of Contents
+
+plaintiff in some of these actions and the defendant in others. Such actions could result in the imposition of various remedies such as injunctions or monetary damages, which if awarded could materially and adversely harm our business, subject us to substantial defense costs and expenses, and divert resources and the attention of management from our business. For example, on March 4, 2025, the Company and certain current and former officers were named in a putative class action lawsuit filed in the United States District Court for the Central District of California. The complaint alleges violations of federal securities laws arising out of alleged misstatements or omissions by the defendants during the alleged class period and seeks, among other things, damages and attorneys’ fees and costs on behalf of the putative class. Following the aforementioned putative class action lawsuit, in April 2025, the Company and certain of its directors and officers were named in two derivative action lawsuits filed in the United States District Court for the Central District of California. Each of the derivative actions was brought on behalf of the Company by a putative stockholder alleging, among other things, breaches of fiduciary duties and violations of federal securities laws. The complaints seek, among other things, damages and attorneys’ fees and costs. In addition, from time to time, we are, and may become, the subject of inquiries, requests for information, investigations, or other actions by government and regulatory agencies regarding our business. Any such matters, regardless of their merit or resolution, could be costly and divert the efforts and attention of our management, damage our reputation, or otherwise adversely affect our business .
+
+We may be subject to claims of infringement of third-party intellectual property rights or demands that we license third-party technology.
+
+The semiconductor industry is characterized by vigorous protection, enforcement, and pursuit of intellectual property rights. Third parties have asserted, and may in the future assert, patent, copyright, trademark, and other intellectual property rights against technologies that are important to our business and manufacturing operations and have demanded and may in the future demand that we license their technology or refrain from using it. For example, on June 20, 2025, Denso Corporation filed patent infringement litigation against the Company in the U.S. (United States District Court for the Central District of California) and Japan (Civil Division of the Osaka District Court). Denso alleges that the Company has and is willfully infringing Denso’s U.S. patent (7,758,979) and Japan patent (JP5190841), each relating to piezoelectric thin film. Denso is seeking monetary damages, including enhanced damages, interest, fees and costs, and injunctive relief.
+
+Any litigation to determine the validity of any allegations that our products infringe or may infringe or misappropriate the intellectual property rights of another party, including indemnification claims arising from our contractual obligations to our customers, regardless of their merit or resolution, could be costly and divert the efforts and attention of our management and technical personnel. Regardless of the merits of any specific claim, we may not prevail in litigation because of the complex technical issues and inherent uncertainties in intellectual property litigation or the assessment of these claims. If litigation were to result in an adverse ruling, we could be required to:
+
+• pay substantial damages,
+
+• cease the manufacture, import, use, sale, or offer for sale of infringing products or processes,
+
+• discontinue the use of infringing technology,
+
+• expend significant resources to develop an alternate non-infringing technology, and
+
+• license technology from the third party claiming infringement, which license may not be available on commercially reasonable terms.
+
+Our operating results or financial condition may be materially adversely affected if we, or one of our customers, were required to take any one or more of the foregoing actions.
+
+In addition, if another supplier to one of our customers, or a customer of ours itself, were found to be infringing upon the intellectual property rights of a third party, the supplier or customer could be ordered to cease the manufacture, import, use, sale, or offer for sale of its infringing product(s) or process(es), either of which could result, indirectly, in a decrease in demand from our customers for our products. If such a decrease in demand for our products were to occur, it could have an adverse impact on our operating results.
+
+We may be subject to warranty claims, product recalls, and other liability claims .
+
+Although we invest significant resources in the testing of our products, from time to time we become aware of alleged defects in our products after they have been shipped, and we may be required to incur additional development and remediation costs or cash payments to settle claims pursuant to warranty and indemnification provisions in our customer contracts and purchase orders. Certain of our products, including “high reliability” solutions, may not be able to perform under stringent operating conditions. Examples of our “high reliability” solutions include products used in the aerospace, automotive, defense, and medical markets. The potential liabilities associated with these and similar provisions in certain of our customer contracts are in some cases capped at significant amounts, and in other cases are uncapped. In addition, because our customers typically integrate our products into other devices, and because we typically do not have a direct relationship with the end customers of our products, our products may be used in applications for which they were not necessarily designed or tested, and they may not
+
+30
+
+Table of Contents
+
+perform as anticipated in such applications. Depending on the nature of any product defect claims, we may not be able to recoup our losses from our third-party suppliers. Investigating, analyzing, and/or remediating alleged product defects may divert our technical and other resources from other product development efforts and could result in claims against us by our customers or third parties, including liability for costs associated with product recalls, indemnification claims, product redesigns, or obligations under customer contracts. If any of our products contain defects, or have reliability, quality, or compatibility problems, our reputation may be damaged, and we could be subject to liability claims, which could make it more difficult for us to sell our products to existing and prospective customers and could adversely affect our operating results. Furthermore, such losses would not be covered under our existing insurance programs. In addition, in the event we are unable to fulfill our contractual obligations, lawsuits may be threatened or filed against us by customers or other third parties. Furthermore, force majeure clauses in our contracts could limit our ability to pursue remedies for certain third-party disruptions and delays.
+
+Risks Associated with Owning our Common Stock
+
+Our stock price has been volatile and may fluctuate in the future.
+
+The trading price of our common stock has fluctuated and may continue to fluctuate significantly. Such fluctuations may be influenced by many factors, including:
+
+• uncertainty regarding the condition and prospects of domestic and foreign economies,
+
+• our performance and prospects, and the performance and prospects of our major customers and competitors,
+
+• the volatility of the financial markets,
+
+• instability in global credit and financial markets,
+
+• our revenue concentrations with relatively few customers, including the impact of the achievement or loss of design wins with such customers,
+
+• our stock repurchase and dividend activities,
+
+• the timing of our repayment of outstanding indebtedness,
+
+• investor perception of us and the industry in which we operate,
+
+• changes in the market valuations of other companies, including, but not limited to, those in our industry,
+
+• changes in earnings estimates, price targets, or buy/sell recommendations by analysts,
+
+• the depth and liquidity of the market for our common stock,
+
+• the exclusion or removal of our stock from market indices, such as the S&P 500 Index,
+
+• domestic and international political conditions,
+
+• domestic and international tax, fiscal, and trade policy decisions,
+
+• our ability to successfully identify, acquire, and integrate acquisition candidates, and
+
+• the extent of the impact of global health events.
+
+Public stock markets experience price and trading volume volatility. This volatility has affected, and could significantly and negatively affect in the future, the market prices of securities of many technology companies, particularly the market price of our common stock.
+
+In addition, fluctuations in our stock price, volume of shares traded, and changes in our trading multiples may make our stock attractive to momentum, hedge, day-trading, or activist investors who often shift funds into and out of stocks rapidly, exacerbating price fluctuations in either direction. We have been, and in the future may be, the subject of commentary by financial news media. Such commentary may contribute to volatility in our stock price. If our operating results do not meet the expectations of securities analysts, the financial news media, or investors, our stock price may decline, possibly substantially over a short period of time.
+
+There can be no assurance that we will continue to declare cash dividends or repurchase our stock.
+
+We pay, and intend to continue to pay, quarterly cash dividends, subject to capital availability and periodic determinations made by our Board of Directors that cash dividends are in the best interest of our stockholders. In addition, from time to time the Board of Directors approves stock repurchase programs, pursuant to which we are authorized to repurchase shares of our common stock on the open market or in privately negotiated transactions.
+
+Future cash dividends and the amount and timing of our stock repurchases may be affected by, among other factors:
+
+• our views on potential future capital requirements, including those related to research and development,
+
+• our ability to generate sufficient earnings and cash flows,
+
+• our use of cash to consummate various acquisition transactions,
+
+• our repayment of principal and interest on our indebtedness,
+
+• changes in federal and state income tax laws or corporate laws, and
+
+• changes to our business model.
+
+31
+
+Table of Contents
+
+Our cash dividend payments and stock repurchases may change from time to time, and we cannot provide assurance that we will increase our cash dividend payment or declare cash dividends or make stock repurchases in any particular amounts or at all. Additionally, our ability to declare dividends or repurchase our stock is subject to certain restrictions set forth in the Merger Agreement. A reduction in our cash dividend payments or a reduction in the level of our stock repurchases could have a negative effect on our stock price.
+
+Certain provisions in our organizational documents and Delaware law may make it difficult for someone to acquire control of us.
+
+We have certain anti-takeover measures that may affect our common stock. Our certificate of incorporation, our by-laws, and the Delaware General Corporation Law contain several provisions that would make it more difficult to acquire control of us in a transaction not approved by our Board of Directors. Our certificate of incorporation and by-laws include provisions such as:
+
+• the ability of our Board of Directors to issue shares of preferred stock in one or more series without further authorization of stockholders,
+
+• a prohibition on stockholder action by written consent,
+
+• a requirement that stockholders provide advance notice of any stockholder nominations of directors or any proposal of new business to be considered at any meeting of stockholders,
+
+• a requirement that the affirmative vote of at least 80% of our shares be obtained to amend or repeal the provisions of our certificate of incorporation relating to the election and removal of directors or the right to act by written consent,
+
+• a requirement that the affirmative vote of at least 80% of our shares be obtained for business combinations unless approved by a majority of the members of the Board of Directors and, in the event that the other party to the business combination is the beneficial owner of 5% or more of our shares, a majority of the members of the Board of Directors in office prior to the time such other party became the beneficial owner of 5% or more of our shares, and
+
+• a fair price provision, as well as a requirement that the affirmative vote of at least 90% of our shares be obtained to amend or repeal the fair price provision.
+
+In addition to the provisions in our certificate of incorporation and by-laws, Section 203 of the Delaware General Corporation Law generally provides that a corporation may not engage in any business combination with any interested stockholder during the three-year period following the time that such stockholder becomes an interested stockholder, unless a majority of the directors then in office approves either the business combination or the transaction that results in the stockholder becoming an interested stockholder or specified stockholder approval requirements are met.
+
+32
+
+Table of Contents
+
+
+ITEM 3. LEGAL PROCEEDINGS.
+
+The information set forth under Note 11 to Item 8 of this Annual Report on Form 10-K is incorporated herein by reference.
+
+
+ITEM 7. MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS.
+
+The following discussion and analysis of our financial condition and results of operations should be read in conjunction with our consolidated financial statements and related notes that appear elsewhere in this Annual Report on Form 10-K. In addition to historical information, the following discussion contains forward-looking statements that are subject to risks and uncertainties. Actual results may differ substantially and adversely from those referred to herein due to a number of factors, including, but not limited to, those described below and in Item 1A “Risk Factors” and elsewhere in this Annual Report on Form 10-K.
+
+OVERVIEW
+
+We, together with our consolidated subsidiaries, are a leading developer, manufacturer and provider of analog and mixed-signal semiconductor products and solutions for numerous applications, including aerospace, automotive, broadband, cellular infrastructure, connected home, defense, entertainment and gaming, industrial, medical, smartphone, tablet, and wearables.
+
+Pending Combination With Qorvo
+
+On October 27, 2025, we entered into the Merger Agreement with Qorvo, a provider of connectivity and power solutions, to combine Qorvo and Skyworks in a cash-and-stock transaction that values the combined company at approximately $ 22.0 billion as of the market close on October 27, 2025.
+
+Under the terms of the Merger Agreement, at the effective time of the Mergers, each share of Qorvo common stock issued and outstanding immediately prior thereto (with certain exceptions set forth in the Merger Agreement) will be converted into the right to receive 0.960 (the “Exchange Ratio”) of a share of Skyworks common stock and $ 32.50 in cash, without interest, subject to applicable withholding taxes. The Exchange Ratio is expected to result in Qorvo equityholders and Skyworks equityholders owning approximately 37% and 63%, respectively, of the combined company on a pro forma basis following the closing. The Merger Agreement also provides for Skyworks’ assumption of certain Qorvo equity awards, subject to certain adjustments thereto in respect of, among other things, performance-based vesting conditions.
+
+Pursuant to the Merger Agreement, immediately following the closing, the Board of Directors will be comprised of 11 directors, consisting of (i) the Chief Executive Officer of Skyworks, who will be the Chief Executive Officer of Skyworks following the closing, (ii) seven directors designated by Skyworks and (iii) three directors designated by Qorvo who are reasonably acceptable to Skyworks, each of whom will hold office until the next annual meeting of stockholders of Skyworks. Promptly following the closing, the Board of Directors will also designate a Chairman. Robert Bruggeworth, Qorvo’s current President, Chief Executive Officer and director, will be one of Qorvo’s designees upon the closing.
+
+The Mergers, which are anticipated to close early in calendar year 2027, are subject to the satisfaction or waiver of customary closing conditions, including adoption of the Merger Agreement by Qorvo’s stockholders and the approval by Skyworks’ stockholders of the issuance of Skyworks common stock included in the consideration to be paid to Qorvo stockholders, the expiration or early termination of the waiting period under the Hart-Scott-Rodino Antitrust Improvement Act of 1976, as amended, and other regulatory approvals under certain antitrust and foreign investment regimes, the absence of any order, injunction or law of such jurisdictions prohibiting the Mergers, and the effectiveness of a registration statement on Form S-4 to be filed by us.
+
+We and Qorvo each have termination rights under the Merger Agreement. Under specified circumstances, including termination by a party to accept a superior proposal or termination by the other party upon a change in such party’s board of directors’ recommendation to its stockholders, each of Qorvo and us will be required to pay the other party a termination fee of $ 298.7 million, as more fully described in the Merger Agreement. Alternatively, under certain specified circumstances, including termination following an injunction arising in connection with certain antitrust or foreign investment laws, or failure to receive certain required regulatory approvals of specified governmental authorities, we will be required to pay Qorvo a termination fee of $ 100.0 million, as more fully described in the Merger Agreement.
+
+In connection with the execution of the Merger Agreement, we entered into a commitment letter (“Bridge Commitment Letter”) on October 27, 2025, with Goldman Sachs Bank USA, which committed to provide, subject to the satisfaction of customary closing conditions, up to $ 3,050.0 million of senior unsecured bridge term loans for the purpose of financing a portion of the cash portion of the consideration to be paid to Qorvo stockholders, paying related fees and expenses in connection with the Mergers and the other transactions contemplated by the Merger Agreement and, in certain circumstances, to refinance certain of Qorvo’s senior notes. The receipt of financing by us is not a condition to our obligation to consummate the Mergers.
+
+36
+
+Table of Contents
+
+Concurrently with the execution of the Merger Agreement, we and certain stockholders of Qorvo affiliated with Starboard Value (“SBV”), an affiliate of Peter Feld, a member of the board of directors of Qorvo so designated by SBV (each, a “SBV Stockholder”), entered into a Voting and Support Agreement (the “VSA”), pursuant to which each SBV Stockholder has agreed to vote its shares of Qorvo common stock in favor of the adoption of the Merger Agreement. As of October 24, 2025, the SBV Stockholders collectively held approximately 8% of Qorvo’s issued and outstanding shares. Each SBV Stockholder has also agreed, for a limited period of time not exceeding nine months from the date of the VSA, not to sell or transfer its shares of Qorvo common stock, subject to certain exceptions as specified in the VSA, and has agreed not to solicit any competing acquisition proposal. The VSA will terminate, as to each SBV Stockholder, upon the earliest to occur of (a) the closing, (b) the termination of the Merger Agreement, (c) the date of any Qorvo Triggering Event or Skyworks Triggering Event (each, as defined in the Merger Agreement) and (d) the written consent of Skyworks, Qorvo and the applicable SBV Stockholder.
+
+For more on risks related to the Mergers, see Part I, Item 1A, Risk Factors, “Risks Associated with the Proposed Transaction with Qorvo” of this Annual Report on Form 10-K.
+
+RESULTS OF OPERATIONS
+
+Fiscal Years Ended October 3, 2025, September 27, 2024, and September 29, 2023
+
+The following table sets forth the results of our operations expressed as a percentage of net revenue. See Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended September 27, 2024, filed with the SEC on November 15, 2024, as amended by Amendment No. 1 to such Annual Report on Form 10-K, filed with the SEC on January 24, 2025 (the “2024 10-K”), for Management’s Discussion and Analysis of Financial Condition and Results of Operations for the fiscal year ended September 29, 2023.
+
+Fiscal Years Ended
+
+October 3, 2025 September 27, 2024 September 29, 2023
+
+Net revenue 100.0 % 100.0 % 100.0 %
+
+Cost of goods sold 58.8 58.8 55.8
+
+Gross profit 41.2 41.2 44.2
+
+Operating expenses:
+
+Research and development 19.2 15.1 12.7
+
+Selling, general, and administrative 9.1 7.2 6.6
+
+Amortization of intangibles — — 0.7
+
+Restructuring, impairment, and other charges 0.6 3.6 0.6
+
+Total operating expenses 28.9 25.9 20.6
+
+Operating income 12.2 15.3 23.6
+
+Interest expense (0.7) (0.7) (1.3)
+
+Other income, net 1.3 0.7 0.4
+
+Income before income taxes 12.9 15.2 22.6
+
+Provision for income taxes 1.2 1.0 2.0
+
+Net income 11.7 % 14.3 % 20.6 %
+
+General
+
+During the fiscal year ended October 3, 2025, the following key factors contributed to our overall results of operations, financial position, and cash flows:
+
+• Net revenue decreased 2.2% to $4,086.9 million in fiscal 2025, as compared to $4,178.0 million in fiscal 2024, driven primarily by a decrease in market share at a significant customer, partially offset by an increase in demand for our mobile and Wi-Fi products.
+
+• Our ending cash, cash equivalents, and marketable securities balance decreased 11.8% to $1,388.4 million in fiscal 2025, as compared to $1,574.1 million in fiscal 2024. The decrease in cash, cash equivalents, and marketable securities during fiscal 2025 was primarily due to share repurchases of $830.2 million, dividend payments of $432.6 million, and capital expenditures of $195.0 million, partially offset by cash generated from operations of $1,300.8 million.
+
+37
+
+Table of Contents
+
+• On February 4, 2025, the Board of Directors appointed Philip Brace as the President and Chief Executive Officer of the Company and as a director, effective February 17, 2025.
+
+• On May 7, 2025, the Board of Directors appointed Todd Lepinski as Senior Vice President, Sales and Marketing, effective as of June 2, 2025.
+
+• On August 23, 2025, the Board of Directors appointed Philip Carter as Senior Vice President and Chief Financial Officer of the Company, effective as of September 8, 2025.
+
+Net Revenue
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Net revenue $ 4,086.9 (2.2)% $ 4,178.0 (12.5)% $ 4,772.4
+
+We market and sell our products indirectly through electronic components distributors and directly to OEMs of communications and electronics products, third-party original design manufacturers, and contract manufacturers. We generally experience seasonal peaks during our fourth and first fiscal quarters (which correspond to the second half of the calendar year), primarily as a result of increased worldwide production of consumer electronics in anticipation of holiday sales, whereas our second and third fiscal quarters are typically lower and in line with seasonal industry trends.
+
+The decrease in net revenue in fiscal 2025, as compared to fiscal 2024, was driven primarily by a decrease in market share at a significant customer, partially offset by an increase in demand for our mobile and Wi-Fi products.
+
+For information regarding net revenue by geographic region and customer concentration, see Note 14 to Item 8 of this Annual Report on Form 10-K.
+
+Gross Profit
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Gross profit $ 1,682.1 (2.2)% $ 1,720.8 (18.3)% $ 2,107.3
+
+% of net revenue 41.2 % 41.2 % 44.2 %
+
+Gross profit represents net revenue less cost of goods sold. Our cost of goods sold consists primarily of purchased materials, labor, and overhead (including depreciation, share-based compensation expense, and amortization of acquisition intangibles) associated with product manufacturing. Erosion of average selling prices of established products is typical of the semiconductor industry. Consistent with trends in the industry, we anticipate that average selling prices for our established products will continue to decline over time. As part of our normal course of business, we intend to improve gross profit with efforts to increase unit volumes, improve manufacturing efficiencies, lower manufacturing costs of existing products, and by introducing new and higher value-added products.
+
+The decrease in gross profit in fiscal 2025, as compared to fiscal 2024, was primarily the result of unfavorable product mix, lower average selling prices, and an increase in costs associated with facility consolidation and closure, partially offset by higher unit volumes.
+
+Research and Development
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Research and development $ 785.5 24.3% $ 631.7 4.1% $ 606.8
+
+% of net revenue 19.2 % 15.1 % 12.7 %
+
+38
+
+Table of Contents
+
+Research and development expenses consist primarily of direct personnel costs including share-based compensation expense, costs for pre-production evaluation units and testing of new devices, non-production masks, engineering prototypes, and design tool costs.
+
+The increase in research and development expenses in fiscal 2025, as compared to fiscal 2024, was primarily related to increases in headcount-related expenses, including share-based compensation and costs for engineering prototypes as a result of our increased investment in developing new technologies and products.
+
+Selling, General, and Administrative
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Selling, general, and administrative $ 371.5 23.5% $ 300.8 (4.2)% $ 314.0
+
+% of net revenue 9.1 % 7.2 % 6.6 %
+
+Selling, general, and administrative expenses include legal and related costs, accounting, treasury, human resources, information systems, customer service, bad debt expense, sales commissions, share-based compensation expense, advertising, marketing, costs associated with business combinations completed or contemplated during the period, and other costs.
+
+The increase in selling, general, and administrative expenses in fiscal 2025, as compared to fiscal 2024, was primarily related to increases in headcount-related expenses, including share-based compensation and increases in professional services costs.
+
+Amortization of Intangibles
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Amortization of intangibles $ 0.9 —% $ 0.9 (97.3)% $ 33.2
+
+% of net revenue — % — % 0.7 %
+
+Amortization of intangible assets was consistent in fiscal 2025, as compared to fiscal 2024.
+
+Restructuring, Impairment, and Other Charges
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Restructuring, impairment, and other charges $ 24.2 (83.9)% $ 150.0 430.0% $ 28.3
+
+% of net revenue 0.6 % 3.6 % 0.6 %
+
+Restructuring, impairment, and other charges in fiscal 2025 was primarily due to certain management severance costs incurred in connection with Chief Executive Officer transition.
+
+Restructuring, impairment, and other charges in fiscal 2024 was primarily due to the abandonment or delay of previously capitalized in-process research and development (“IPR&D”) projects of $147.9 million and employee severance costs.
+
+Interest Expense
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Interest expense $ 27.1 (11.7)% $ 30.7 (52.3)% $ 64.4
+
+% of net revenue 0.7 % 0.7 % 1.3 %
+
+The decrease in interest expense in fiscal 2025, as compared to fiscal 2024, was due to certain debt repayments in prior periods that reduced the amount of outstanding indebtedness.
+
+39
+
+Table of Contents
+
+Other Income, Net
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Other income, net $ 53.8 81.1% $ 29.7 63.2% $ 18.2
+
+% of net revenue 1.3 % 0.7 % 0.4 %
+
+The increase in other income, net in fiscal 2025, as compared to fiscal 2024, was primarily due to an increase in interest income generated from cash, cash equivalents, and marketable securities.
+
+Provision for Income Taxes
+
+Fiscal Years Ended
+
+(dollars in millions) October 3, 2025 Change September 27, 2024 Change September 29, 2023
+
+Provision for income taxes $ 49.6 22.8% $ 40.4 (57.9)% $ 96.0
+
+% of net revenue 1.2 % 1.0 % 2.0 %
+
+We recorded a provision for income taxes of $49.6 million (which consisted of a benefit of $35.5 million and a provision of $0.1 million related to United States federal and state income taxes, respectively, and a provision of $85.0 million related to foreign income taxes) and $40.4 million (which consisted of benefits of $41.5 million and $0.3 million related to United States federal and state income taxes, respectively, and a provision of $82.2 million related to foreign income taxes) in fiscal 2025 and fiscal 2024, respectively.
+
+The increase in income tax expense in fiscal 2025, as compared to fiscal 2024, was primarily due to higher foreign taxes including the tax impact of remeasuring existing net deferred tax liabilities in Singapore and a lower Foreign-Derived Intangible Income (“FDII”) benefit, partially offset by a decrease in Global Intangible Low-Taxed Income (“GILTI”), net of foreign tax credits and an increase in research and development credits.
+
+In December 2021, the Organization for Economic Co-operation and Development’s (“OECD”) Inclusive Framework on Base Erosion and Profit Shifting (“BEPS”) released Global Anti-Base Erosion (“GloBE”) rules under Pillar Two. Many countries have implemented laws based on Pillar Two, which became effective for us beginning in fiscal 2025. The tax impact associated with Pillar Two was immaterial to the financial statements for fiscal 2025. We continue to evaluate the impact of proposed and enacted legislative changes as new guidance becomes available.
+
+In July 2025, the U.S. government enacted the One Big Beautiful Bill Act (“OBBBA”). The OBBBA did not have a material impact to the financials for fiscal 2025. We continue to evaluate the impact of the OBBBA on our business for future periods.
+
+See Note 8 to Item 8 of this Annual Report on Form 10-K for additional information regarding income taxes.
+
+LIQUIDITY AND CAPITAL RESOURCES
+
+Fiscal Years Ended
+
+(in millions) October 3, 2025 September 27, 2024 September 29, 2023
+
+Cash and cash equivalents at beginning of period $ 1,368.6 $ 718.8 $ 566.0
+
+Net cash provided by operating activities 1,300.8 1,824.7 1,856.4
+
+Net cash used in investing activities (234.0) (355.9) (224.4)
+
+Net cash used in financing activities (1,274.1) (819.0) (1,479.2)
+
+Cash and cash equivalents at end of period $ 1,161.3 $ 1,368.6 $ 718.8
+
+Cash provided by operating activities:
+
+Cash provided by operating activities consists of net income for the period adjusted for certain non-cash items and changes in certain operating assets and liabilities. The $523.9 million decrease in cash provided by operating activities for fiscal 2025, as compared to fiscal 2024, was primarily related to a decrease in working capital of $370.7 million, due primarily to inventory and accounts receivable, and lower net income.
+
+40
+
+Table of Contents
+
+Cash used in investing activities:
+
+Cash used in investing activities consists primarily of cash paid to purchase marketable securities, capital expenditures, and cash paid to acquire intangible assets, partially offset by cash received related to the sale or maturity of marketable securities. The $121.9 million decrease in cash used in investing activities for fiscal 2025, as compared to fiscal 2024, was primarily related to an increase of $531.8 million in the sale or maturity of marketable securities, partially offset by an increase of $362.6 million in purchases of marketable securities and an increase of $38.0 million in capital expenditures.
+
+Cash used in financing activities:
+
+Cash used in financing activities consists primarily of cash transactions related to equity and proceeds and payments related to our long-term borrowings. The $455.1 million increase in cash used in financing activities for fiscal 2025, as compared to fiscal 2024, was primarily related to an increase of $752.9 million in share repurchases, partially offset by a decrease of $300.0 million for the repayment of debt.
+
+Liquidity:
+
+Cash, cash equivalents, and marketable securities totaled $1,388.4 million as of October 3, 2025, representing a decrease of $185.7 million from September 27, 2024.
+
+We have outstanding $500.0 million of Notes Due 2026 and $500.0 million of Notes Due 2031 (the “Notes”). During fiscal 2024 and 2023, we repaid $300.0 million and $900.0 million of outstanding borrowings, respectively. We have a Revolving Credit Agreement (the “Revolving Credit Agreement”) under which we may borrow up to $750.0 million for general corporate purposes and working capital needs of the Company and its subsidiaries. As of October 3, 2025, there were no borrowings outstanding under the revolving credit facility (the “Revolver”). The Revolving Credit Agreement expires July 26, 2026.
+
+In connection with the execution of the Merger Agreement, we entered into a commitment letter on October 27, 2025, with Goldman Sachs Bank USA, which committed to provide, subject to the satisfaction of customary closing conditions, up to $3,050.0 million of senior unsecured bridge term loans for the purpose of financing a portion of the cash portion of the consideration to be paid to Qorvo stockholders, paying related fees and expenses in connection with the Mergers and the other transactions contemplated by the Merger Agreement and, in certain circumstances, to refinance certain of Qorvo’s senior notes.
+
+For a description of contractual obligations, such as taxes, leases, purchase commitments, and debt, see Note 8, Note 10, Note 11, and Note 16 to Item 8 of this Annual Report on Form 10-K, respectively.
+
+Based on our historical results of operations, we expect that our cash, cash equivalents, and marketable securities on hand, the cash we expect to generate from operations, and funds from our Revolver, will be sufficient to fund our short-term and long-term liquidity requirements primarily arising from: research and development, capital expenditures, potential acquisitions, working capital, quarterly cash dividend payments (if such dividends are declared by the Board of Directors), share repurchases, outstanding commitments, and other liquidity requirements associated with existing operations. However, we cannot be certain that our cash, cash equivalents, and marketable securities on hand, cash generated from operations, and funds from our Revolver will be available in the future to fund all of our capital and operating requirements. In addition, any future strategic investments and significant acquisitions may require additional cash and capital resources. If we are unable to obtain sufficient cash or capital to meet our needs on a timely basis and on favorable terms, our business and operations could be materially and adversely affected.
+
+Our invested cash balances primarily consist of highly liquid marketable securities that are available to meet near-term cash requirements including: money market funds, U.S. Treasury and government securities, corporate bonds and notes, and municipal bonds.
+
+CRITICAL ACCOUNTING ESTIMATES
+
+The discussion and analysis of our financial condition and results of operations are based upon our consolidated financial statements, which have been prepared in accordance with U.S. generally accepted accounting principles (“GAAP”). The preparation of these financial statements requires us to make estimates and judgments in applying our most critical accounting policies that can have a significant impact on the results we report in our financial statements. The SEC has defined critical accounting estimates as those that are both most important to the portrayal of our financial condition and results and which require our most difficult, complex, or subjective judgments or estimates. Based on this definition, our most critical accounting estimates include revenue recognition, which impacts the recording of net revenue; inventory valuation, which impacts the cost of goods sold and gross margin; and income taxes, which impacts the income tax provision. These policies and significant
+
+41
+
+Table of Contents
+
+judgments involved are discussed further below. We have other significant accounting policies that do not generally require subjective estimates or judgments or would not have a material impact on our results of operations. Our significant accounting policies are described in Note 2 to Item 8 of this Annual Report on Form 10-K.
+
+Revenue Recognition. We recognize revenue in accordance with the Financial Accounting Standards Board’s (“FASB”) Accounting Standards Codification (“ASC”) 606 Revenue from Contracts with Customers net of estimated reserves . Our revenue reserves contain uncertainties because they require management to make assumptions and to apply judgment to estimate the value of future credits to customers for product returns, price protection, price adjustments, and stock rotation for products sold to certain electronic component distributors. We base these estimates on the expected value method considering all reasonably available information, including our historical experience and current expectations, and are reflected in the transaction price when sales are recorded. Changes in actual demand or market conditions could adversely or beneficially impact our reserve calculations.
+
+Inventory Valuation . We value our inventory at the lower of cost or net realizable value. Reserves for excess and obsolete inventory are established on a quarterly basis and are based on a detailed analysis of aged material, salability of our inventory, market conditions, and product life cycles. Once reserves are established, write-downs of inventory are considered permanent adjustments to the cost basis of inventory. Our reserves contain uncertainties because the calculation requires management to make assumptions and to apply judgment regarding historical experience, market conditions, and technological obsolescence. Changes in actual demand or market conditions could adversely impact our reserve calculations.
+
+Income Taxes. The application of tax laws and regulations to calculate our tax liabilities is subject to legal and factual interpretation, judgment, and uncertainty in a multitude of jurisdictions. Tax laws and regulations themselves are subject to change as a result of changes in fiscal policy, changes in legislation, the evolution of regulations, and court rulings. We recognize potential liabilities for anticipated tax audit issues in the United States and other tax jurisdictions based on our estimate of whether, and the extent to which, additional taxes and interest will be due. We record an amount as an estimate of probable additional income tax liability at the largest amount that we feel is more likely than not, based upon the technical merits of the position, to be sustained upon audit by the relevant tax authority.

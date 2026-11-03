@@ -1,0 +1,121 @@
+-Goal-
+Given a text document that is potentially relevant to this activity and a list of entity types, identify ALL entities of those types from the text in order to capture the information and ideas in the text. Relationships between entities are extracted in a later, separate step — do NOT extract them here. Spend your entire output on entities: it is better to emit one entity too many than to miss one.
+
+-Steps-
+1. Identify all entities. For each identified entity, extract the following information:
+- entity_name: Name of the entity, capitalized. For companies, use the common name without legal suffixes (APPLE, not APPLE INC.). Always attribute first-person text ("we", "our", "the Company") to the named filer of the document. Name events with a distinguishing party or date (SECURITIES CLASS ACTION (MARCH 2024), not LITIGATION).
+- entity_type: One of the following types: [{entity_types}]. Do not invent new types — every entity must use exactly one of these.
+- entity_description: Comprehensive description of the entity's attributes and activities. Preserve exact figures, percentages, dollar amounts, and fiscal years VERBATIM from the text (e.g. "accounted for approximately 59% of net revenue in fiscal 2025", not "a majority of revenue").
+When the text defines a composite figure or breakdown (e.g. "four contract manufacturers each accounted for greater than 10% of production and approximately 57% in the aggregate", or "Vietnam, Indonesia and China manufactured approximately 50%, 27% and 18% of footwear, respectively"), reproduce the FULL breakdown VERBATIM inside the relevant entity_description, and also extract each named component (each country, each named party) as its own entity with its exact share stated in its description.
+Format each entity as ("entity"<|>NAME<|>TYPE<|>DESCRIPTION)
+
+2. Output ONLY entity records — do NOT output relationship records of any kind.
+
+3. Return output in English as a single list of all the entities identified in step 1. Use **##** as the list delimiter.
+
+4. If you have to translate into English, just translate the descriptions, nothing else!
+
+5. When finished, output <|COMPLETE|>.
+
+-Type definitions-
+Every entity must be assigned exactly one of these types. Use these definitions strictly:
+
+- organization: a SPECIFIC named company, government agency, court, or institution (APPLE, TSMC, INTERNAL REVENUE SERVICE, U.S. DISTRICT COURT FOR THE NORTHERN DISTRICT OF CALIFORNIA). Unnamed categories ("our contract manufacturers", "OEM customers", "our competitors", "distributors") are NOT organizations — do not extract unnamed categories at all.
+- person: a named individual (an officer, director, or founder).
+- geo: a SPECIFIC named place — a country, state, city, or region (VIETNAM, TAIWAN, SINGAPORE). Categorical references ("Asia-Pacific markets", "foreign jurisdictions") are not geo entities.
+- product: a SPECIFIC named product, brand, platform, or technology family (SNAPDRAGON, NIKE BRAND FOOTWEAR, WI-FI 7 FRONT-END MODULES when named as a product line). Generic commodity categories ("semiconductors", "smartphones") are not products.
+- business segment: a reportable segment or operating division AS NAMED by the filer (QCT, QUALCOMM TECHNOLOGY LICENSING, ANALOG SIGNAL CHAINS).
+- financial metric: a measurable quantity, ratio, or indicator with its value when stated (NET REVENUE, GROSS MARGIN, CUSTOMER CONCENTRATION, R&D EXPENSE).
+- debt instrument: a specific named debt obligation or facility (2031 SENIOR NOTES, REVOLVING CREDIT FACILITY, COMMERCIAL PAPER PROGRAM).
+- regulation: a named law, rule, standard, tariff, or government program the company is subject to or benefits from (GDPR, SECURITIES EXCHANGE ACT OF 1934, CHIPS ACT, SECTION 301 TARIFFS, EXPORT ADMINISTRATION REGULATIONS). It exists independently of the company.
+- event: a specific discrete occurrence involving the company — a lawsuit, investigation, acquisition, divestiture, restructuring, impairment charge, or leadership transition — named with a party or date anchor. Boilerplate ("various legal proceedings arising in the ordinary course of business") is NOT an event; extract nothing for it.
+
+-Examples-
+######################
+
+Example 1:
+
+text:
+Skyworks Solutions is targeting high-growth verticals, while at the same time, seeking to diversify our revenue and customer set. Targeted investments in next-generation technology and solutions have created the opportunity to expand into high-growth market segments, including electric and hybrid vehicles, 5G wireless infrastructure, data center, automotive, and smart home applications. Our key customers include Amazon, Apple Inc. ("Apple"), Cisco, Ericsson, Google, Microsoft, Samsung, and Tesla. Our competitors include Analog Devices, Broadcom, Qorvo, Qualcomm, and Texas Instruments. For fiscal 2025, Apple accounted for approximately 59% of our net revenue.
+------------------------
+output:
+("entity"<|>SKYWORKS SOLUTIONS<|>organization<|>Semiconductor company targeting high-growth verticals including electric and hybrid vehicles, 5G wireless infrastructure, data center, automotive, and smart home; seeking to diversify its revenue and customer set; Apple accounted for approximately 59% of its net revenue in fiscal 2025)
+##
+("entity"<|>AMAZON<|>organization<|>A key customer of Skyworks Solutions)
+##
+("entity"<|>APPLE<|>organization<|>A key customer of Skyworks Solutions, accounting for approximately 59% of Skyworks net revenue in fiscal 2025)
+##
+("entity"<|>CISCO<|>organization<|>A key customer of Skyworks Solutions)
+##
+("entity"<|>ERICSSON<|>organization<|>A key customer of Skyworks Solutions)
+##
+("entity"<|>GOOGLE<|>organization<|>A key customer of Skyworks Solutions)
+##
+("entity"<|>MICROSOFT<|>organization<|>A key customer of Skyworks Solutions)
+##
+("entity"<|>SAMSUNG<|>organization<|>A key customer of Skyworks Solutions)
+##
+("entity"<|>TESLA<|>organization<|>A key customer of Skyworks Solutions in the automotive market)
+##
+("entity"<|>ANALOG DEVICES<|>organization<|>A competitor of Skyworks Solutions in semiconductors)
+##
+("entity"<|>BROADCOM<|>organization<|>A competitor of Skyworks Solutions in semiconductors)
+##
+("entity"<|>QORVO<|>organization<|>A competitor of Skyworks Solutions in semiconductors)
+##
+("entity"<|>QUALCOMM<|>organization<|>A competitor of Skyworks Solutions in semiconductors)
+##
+("entity"<|>TEXAS INSTRUMENTS<|>organization<|>A competitor of Skyworks Solutions in semiconductors)
+##
+("entity"<|>NET REVENUE<|>financial metric<|>Skyworks Solutions net revenue, of which Apple accounted for approximately 59% in fiscal 2025)
+<|COMPLETE|>
+#############################
+
+
+Example 2:
+
+text:
+Nearly all of NIKE's footwear and apparel products are manufactured outside the United States by independent contract manufacturers, many of which operate multiple factories. As of May 31, 2024, our contract manufacturers operated 96 finished goods footwear factories located in 11 countries. For fiscal 2024, factories in Vietnam, Indonesia and China manufactured approximately 50%, 27% and 18% of total NIKE Brand footwear, respectively. For fiscal 2024, four footwear contract manufacturers each accounted for greater than 10% of footwear production and in the aggregate accounted for approximately 57% of NIKE Brand footwear production.
+------------------------
+output:
+("entity"<|>NIKE<|>organization<|>Footwear and apparel company whose products are manufactured almost entirely outside the United States by independent contract manufacturers; for fiscal 2024, four footwear contract manufacturers each accounted for greater than 10% of footwear production and approximately 57% in the aggregate)
+##
+("entity"<|>NIKE BRAND FOOTWEAR<|>product<|>NIKE's footwear product line, manufactured in 96 factories across 11 countries; factories in Vietnam, Indonesia and China manufactured approximately 50%, 27% and 18% of total NIKE Brand footwear respectively in fiscal 2024)
+##
+("entity"<|>VIETNAM<|>geo<|>Country manufacturing approximately 50% of total NIKE Brand footwear in fiscal 2024, NIKE's largest manufacturing concentration)
+##
+("entity"<|>INDONESIA<|>geo<|>Country manufacturing approximately 27% of total NIKE Brand footwear in fiscal 2024)
+##
+("entity"<|>CHINA<|>geo<|>Country manufacturing approximately 18% of total NIKE Brand footwear in fiscal 2024)
+<|COMPLETE|>
+#############################
+
+
+Example 3:
+
+text:
+In March 2024, a putative securities class action was filed against the Company and certain of its officers in the United States District Court for the Northern District of California, alleging violations of Section 10(b) of the Securities Exchange Act of 1934 in connection with disclosures regarding the Company's inventory levels. The Company is also subject to periodic audits by the Internal Revenue Service and other tax authorities. In fiscal 2024, the Company recorded a charge of $86 million related to its withdrawal from a multiemployer pension plan. Our operations are subject to the European Union's General Data Protection Regulation (GDPR), and non-compliance could result in fines of up to 4% of annual worldwide revenue.
+------------------------
+output:
+("entity"<|>SECURITIES CLASS ACTION (MARCH 2024)<|>event<|>Putative securities class action filed in March 2024 against the Company and certain officers in the U.S. District Court for the Northern District of California, alleging Section 10(b) violations related to inventory-level disclosures)
+##
+("entity"<|>UNITED STATES DISTRICT COURT FOR THE NORTHERN DISTRICT OF CALIFORNIA<|>organization<|>Federal court where the March 2024 securities class action against the Company was filed)
+##
+("entity"<|>SECURITIES EXCHANGE ACT OF 1934<|>regulation<|>U.S. securities law; Section 10(b) is the basis of the March 2024 class action against the Company)
+##
+("entity"<|>INTERNAL REVENUE SERVICE<|>organization<|>U.S. tax authority that periodically audits the Company)
+##
+("entity"<|>GENERAL DATA PROTECTION REGULATION<|>regulation<|>European Union data protection regulation the Company's operations are subject to; non-compliance can result in fines of up to 4% of annual worldwide revenue)
+##
+("entity"<|>MULTIEMPLOYER PENSION PLAN WITHDRAWAL CHARGE (FISCAL 2024)<|>event<|>Charge of $86 million recorded in fiscal 2024 related to the Company's withdrawal from a multiemployer pension plan)
+<|COMPLETE|>
+#############################
+
+
+
+-Real Data-
+######################
+Entity_types: {entity_types}
+text: {input_text}
+######################
+output:

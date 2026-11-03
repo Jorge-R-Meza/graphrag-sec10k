@@ -1,0 +1,51 @@
+-Goal-
+You are given a list of KNOWN ENTITIES already identified across a document, and ONE passage from that document. Identify every relationship that THIS passage supports.
+
+-Use the known-entity list for salience-
+Some known entities appear in this passage in NON-OBVIOUS ways — a defined term, an acronym, or a descriptive phrase that does not read as a named entity on its own. Recognize them and connect them, reusing their EXACT names. For example, "the entire unfunded liability is refinanced annually and never paid down" describes an open amortization method even if it is never named — if a matching known entity exists, link it.
+
+-Steps-
+1. Identify relationships EXHAUSTIVELY. For every pair of entities this passage connects in ANY way, extract a relationship — do not restrict yourself to the few strongest links; a passage that mentions N entities usually supports many more than N relationships. For each, extract:
+   - source_entity, target_entity: prefer a known entity's EXACT name; if a clearly-named entity in this passage is NOT in the list, you may still use it as an endpoint (name it exactly as the passage does — it will be added as a new entity).
+   - relationship_description: why they are related, grounded in this passage
+   - relationship_strength: integer 1-10 (1-3 tangential/co-occurring; 4-6 stated but indirect; 7-10 direct/explicit). Report a weak link rather than omitting it.
+   Format each as ("relationship"<|>SOURCE<|>TARGET<|>DESCRIPTION<|>STRENGTH)
+   Actively look for these connection kinds, not just the explicit ones:
+   - DEFINES / DESCRIBES: an entity is defined or characterized in terms of another.
+   - COMPONENT-OF / PART-OF: an entity is a term in a formula, a subfactor of a factor, a step in a process, or a member of a category. For formula terms, preserve the term's exact role verbatim, including any operator, coefficient, or weight (e.g. "NPL enters the formula divided by 30", "service cost is weighted 50%"), not just membership.
+   - TRIGGERS / CONSTRAINS / CAPS: an entity causes, gates, limits, or sets a condition on another.
+   - IMPROVES / WORSENS / AFFECTS: an entity raises, lowers, or otherwise influences another's value or assessment.
+   - THRESHOLD / BAND: a numeric value, band, or category maps to a score, outcome, or classification.
+   - EXAMPLE-OF / INSTANCE-OF: an entity is a specific instance or member of a general one.
+   - USES / DERIVED-FROM / REFERENCES: an entity is computed from, sourced from, or refers to another.
+2. DENSITY CHECK: the entities in a passage form a connected web, not a flat list. Your relationships should OUTNUMBER the known entities that appear in this passage. If you have fewer, you have under-connected — re-read for the structural, conditional, co-occurrence, and component links you skipped, and add them at strength 3-6.
+3. Output ONLY relationships — do NOT output entity records. Use **##** as the delimiter.
+4. When finished, output <|COMPLETE|>.
+
+######################
+-Example-
+Known entities:
+- OPEN AMORTIZATION METHOD
+- UNFUNDED PENSION LIABILITY
+- DEBT AND LIABILITIES ASSESSMENT
+
+text:
+Under this approach the entire unfunded liability is reset and refinanced each year, so it is projected to never be fully paid down. We view such approaches as weak when assessing debt and liabilities, which can worsen the pension funding discipline score.
+------------------------
+output:
+("relationship"<|>OPEN AMORTIZATION METHOD<|>UNFUNDED PENSION LIABILITY<|>The open amortization method resets and refinances the entire unfunded pension liability each year instead of paying it down<|>9)
+##
+("relationship"<|>OPEN AMORTIZATION METHOD<|>DEBT AND LIABILITIES ASSESSMENT<|>Open amortization methods are viewed as weak when assessing debt and liabilities<|>7)
+##
+("relationship"<|>OPEN AMORTIZATION METHOD<|>PENSION FUNDING DISCIPLINE SCORE<|>A weak (open) amortization approach can worsen the pension funding discipline score<|>6)
+<|COMPLETE|>
+######################
+
+-Known entities (recognize and reuse these where they appear; you may also name new endpoints)-
+{entity_list}
+
+######################
+-Text-
+text: {input_text}
+######################
+output:

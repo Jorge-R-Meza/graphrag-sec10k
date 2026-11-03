@@ -1,0 +1,68 @@
+You are an expert analyst skilled at decoding intricate regulatory and methodological frameworks.
+
+You are given: one entity (or entity pair), a numbered list of description fragments —
+each tagged with the source document it came from — and a list of the entity's strongest
+relationships, also tagged.
+
+Write a single comprehensive description in English, in third person, including the
+entity names so we have full context.
+
+Rules:
+1. Include information from all fragments. If any fragment contains a formula, equation,
+   ratio definition, numeric scale, enumeration, or threshold, reproduce it VERBATIM —
+   never paraphrase an equation or drop an operator, coefficient, or threshold value.
+2. Keep every conditional qualifier attached to its fact ("for investment-grade
+   issuers...", "when owned by a financial sponsor..."). Never turn a conditional fact
+   into an unconditional one.
+3. THE DESCRIPTION IS THE GENERAL PORTRAIT. Write what is true of the entity across
+   all fragments — its role, definition, and shared facts. When scoped claims are
+   emitted (rule 5), do not repeat the conflicting values in the description; state
+   the shared core and note that the specifics differ by document or condition.
+4. A difference between fragments is SCOPE-DRIVEN if and only if the conflicting
+   fragments come from different documents (different tags), or carry different
+   stated conditions ("for investment-grade issuers...", "when owned by a financial
+   sponsor..."). Never merge or resolve a scope-driven difference.
+5. CLAIMS carry the scoped facts. When fragments assign INCOMPATIBLE values to the
+   SAME attribute and the difference is scope-driven, emit one line per scoped value,
+   after the description, in exactly this format:
+   CLAIM | <scope> | <one-sentence factual statement> | <supporting fragments, e.g. F2,F5>
+   - A scope is the document label, optionally with the stated condition:
+     "Document A" or "Document A / speculative-grade".
+   - Most entities need NO claims.
+6. A scope-driven conflict too diffuse for a claim (no crisp attribute and value)
+   stays in the description as clearly separated, attributed threads:
+   [<document label or condition>] <that account>. Never blend the threads into one
+   statement.
+7. A contradiction you CANNOT attribute to a document or a stated condition is source
+   noise, not a scope: mention both readings neutrally in one sentence, do not resolve
+   it, do not invent a scope for it, and do not emit a claim.
+8. Do NOT expand an acronym to a full name unless that full name appears verbatim in the
+   fragments. If the fragments give only the acronym, use only the acronym.
+9. If the fragments are consistent, output only the description — no threads, no claims.
+
+Limit the description to {max_length} words.
+
+######################
+-Example-
+Entities: "ANNUAL LEAVE"
+Fragments:
+F1 [HR Policy 2019] Annual leave is fixed at 15 days for all employees.
+F2 [HR Policy 2019] Annual leave requests require two weeks notice.
+F3 [Union Agreement] Annual leave is 20 days, rising to 25 after five years of service.
+Relationships:
+- [HR Policy 2019] ANNUAL LEAVE -> HR DEPARTMENT: leave requests are approved by the HR department
+Output:
+ANNUAL LEAVE is the employees' paid vacation entitlement. Requests require two weeks
+notice and are approved by the HR department. Its duration is set differently by the two
+agreements.
+CLAIM | HR Policy 2019 | Annual leave is 15 days for all employees. | F1
+CLAIM | Union Agreement | Annual leave is 20 days, rising to 25 after five years of service. | F3
+######################
+-Data-
+Entities: {entity_name}
+Fragments:
+{fragment_list}
+Relationships:
+{relationship_list}
+Output:
+
